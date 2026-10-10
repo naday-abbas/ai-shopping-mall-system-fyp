@@ -1,0 +1,73 @@
+{
+  "note": "Original (pre-fix) values overwritten by fix.js on this run. dump.json was accidentally re-generated post-fix, so this file is the real rollback record.",
+  "placeholder_clothes_items": {
+    "note": "All 161 items matched by { category: 'Clothes', description: 'Placeholder description — edit from the admin dashboard.' } originally had brand: '' and this exact description string. To revert: Product.updateMany({ category: 'Clothes', brand: { $in: [<their new brands>] } , ... }, { $set: { brand: '', description: 'Placeholder description — edit from the admin dashboard.' } }) — or restore from a proper mongodump if you have one.",
+    "original_brand": "",
+    "original_description": "Placeholder description — edit from the admin dashboard."
+  },
+  "special_items": [
+    {
+      "_id": "6a2e701600ebcc6aefef3de4",
+      "name": "Kids Smart Toy Robot",
+      "price": 8500,
+      "isActive": true,
+      "clickCount": 2,
+      "storeLocation": "Floor 3 - Bachaa Party",
+      "imageUrl": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=500&q=80",
+      "targetDemographics": [{ "age": "Kid", "gender": "All" }],
+      "category": null,
+      "brand": null,
+      "description": null,
+      "targetWeather": null
+    },
+    {
+      "_id": "6a2e701600ebcc6aefef3de1",
+      "name": "Summer Floral Dress",
+      "price": 3200,
+      "isActive": true,
+      "clickCount": 0,
+      "storeLocation": "Floor 2 - Khaadi",
+      "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&q=80",
+      "targetDemographics": [
+        { "age": "Adult", "gender": "Female" },
+        { "age": "Young", "gender": "Female" }
+      ],
+      "category": null,
+      "brand": null,
+      "description": null,
+      "targetWeather": null
+    },
+    {
+      "_id": "6a2e701600ebcc6aefef3dde",
+      "name": "Premium Leather Watch",
+      "price": 4500,
+      "isActive": true,
+      "clickCount": 8,
+      "storeLocation": "Floor 1 - Hub",
+      "imageUrl": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500&q=80",
+      "targetDemographics": [
+        { "age": "Adult", "gender": "Male" },
+        { "age": "Young", "gender": "Male" }
+      ],
+      "category": null,
+      "brand": null,
+      "description": null,
+      "targetWeather": null
+    },
+    {
+      "_id": "6a2e701600ebcc6aefef3de6",
+      "name": "Wireless Gaming Headset",
+      "price": 6000,
+      "isActive": true,
+      "clickCount": 0,
+      "storeLocation": { "floor": "1", "storeNumber": "N/A" },
+      "imageUrl": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500&q=80",
+      "targetDemographics": [{ "age": "Young", "gender": "Male" }],
+      "category": "Other",
+      "brand": "",
+      "description": "",
+      "storeName": "",
+      "targetWeather": null
+    }
+  ]
+}

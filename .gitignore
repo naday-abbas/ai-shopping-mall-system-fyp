@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+dist-ssr/
+frontend/dist/
+
+# Environment files — never commit secrets
+.env
+.env.*
+**/. env
+**/.env
+**/.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+api/__pycache__/
+api/*.pyc
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.sw?
+
+# Local overrides
+*.local
+
+# Claude Code local-only settings (machine-specific permission history)
+.claude/settings.local.json

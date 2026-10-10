@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3d2314"/>
+      <stop offset="50%" style="stop-color:#6f3a1f"/>
+      <stop offset="100%" style="stop-color:#3d2314"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8d5c4"/>
+      <stop offset="100%" style="stop-color:#d4b8a0"/>
+    </linearGradient>
+    <linearGradient id="coffee" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a2c0a"/>
+      <stop offset="100%" style="stop-color:#2c1505"/>
+    </linearGradient>
+    <linearGradient id="foam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3"/>
+      <stop offset="100%" style="stop-color:#e8d0b5"/>
+    </linearGradient>
+    <linearGradient id="saucer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ece0d1"/>
+      <stop offset="100%" style="stop-color:#c8ab8c"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(0,0,0,0.4)"/>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="24" fill="url(#bg)"/>
+
+  <!-- Background warm glow -->
+  <circle cx="200" cy="220" r="160" fill="rgba(180,90,20,0.15)"/>
+  <circle cx="200" cy="220" r="100" fill="rgba(180,90,20,0.1)"/>
+
+  <!-- Decorative coffee beans -->
+  <ellipse cx="60" cy="70" rx="18" ry="12" fill="rgba(255,255,255,0.07)" transform="rotate(-30 60 70)"/>
+  <line x1="60" y1="58" x2="60" y2="82" stroke="rgba(255,255,255,0.05)" stroke-width="2" transform="rotate(-30 60 70)"/>
+  <ellipse cx="340" cy="80" rx="18" ry="12" fill="rgba(255,255,255,0.07)" transform="rotate(30 340 80)"/>
+  <line x1="340" y1="68" x2="340" y2="92" stroke="rgba(255,255,255,0.05)" stroke-width="2" transform="rotate(30 340 80)"/>
+  <ellipse cx="55" cy="330" rx="16" ry="10" fill="rgba(255,255,255,0.07)" transform="rotate(15 55 330)"/>
+  <ellipse cx="345" cy="330" rx="16" ry="10" fill="rgba(255,255,255,0.07)" transform="rotate(-15 345 330)"/>
+
+  <!-- Steam wisps -->
+  <path d="M 170 105 Q 158 85 170 65 Q 182 45 170 25" stroke="rgba(255,255,255,0.35)" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 200 110 Q 188 88 200 68 Q 212 48 200 28" stroke="rgba(255,255,255,0.25)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 230 105 Q 242 85 230 65 Q 218 45 230 25" stroke="rgba(255,255,255,0.35)" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Saucer -->
+  <ellipse cx="200" cy="315" rx="105" ry="22" fill="url(#saucer)" filter="url(#shadow)"/>
+  <ellipse cx="200" cy="315" rx="92" ry="14" fill="none" stroke="rgba(150,100,60,0.3)" stroke-width="2"/>
+
+  <!-- Cup body -->
+  <path d="M 142 160 L 152 300 Q 152 315 165 315 L 235 315 Q 248 315 248 300 L 258 160 Z" fill="url(#cup)" filter="url(#shadow)"/>
+
+  <!-- Cup interior - coffee -->
+  <ellipse cx="200" cy="165" rx="55" ry="14" fill="url(#coffee)"/>
+  <!-- Coffee surface -->
+  <ellipse cx="200" cy="162" rx="52" ry="11" fill="#3d1a05"/>
+
+  <!-- Latte art on coffee -->
+  <path d="M 200 158 Q 215 155 220 162 Q 215 169 200 166 Q 185 169 180 162 Q 185 155 200 158" fill="#8B5E3C" opacity="0.6"/>
+  <path d="M 200 162 Q 205 156 210 162 Q 205 168 200 162" fill="#c8956c" opacity="0.5"/>
+
+  <!-- Foam collar -->
+  <ellipse cx="200" cy="165" rx="58" ry="15" fill="url(#foam)" filter="url(#shadow)"/>
+  <ellipse cx="200" cy="163" rx="52" ry="10" fill="none" stroke="rgba(200,160,120,0.4)" stroke-width="1"/>
+
+  <!-- Cup handle -->
+  <path d="M 258 195 Q 298 195 298 230 Q 298 265 258 265" stroke="url(#cup)" stroke-width="18" fill="none" stroke-linecap="round" filter="url(#shadow)"/>
+  <path d="M 258 195 Q 284 195 284 230 Q 284 265 258 265" stroke="#c8ab8c" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Cup shine -->
+  <path d="M 152 185 Q 150 220 153 260" stroke="rgba(255,255,255,0.2)" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Label -->
+  <rect x="80" y="348" width="240" height="38" rx="19" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="200" y="372" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#f5e6d3" text-anchor="middle" letter-spacing="1">HOT COFFEE</text>
+</svg>

@@ -1,0 +1,5909 @@
+[
+  {
+    "_id": "6a65fb98653ee67e8b9668cc",
+    "name": "Hanger Shirt",
+    "brand": "Hanger",
+    "description": "Latest Formal + Casual Edition Shirt",
+    "imageUrl": "https://thehangerpakistan.com/cdn/shop/files/IMG_0216.jpg?v=1724951195&width=1600",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a65fb98653ee67e8b9668cd"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "Hanger",
+    "storeLocation": {
+      "floor": "2nd Floor",
+      "storeNumber": "N/A"
+    },
+    "price": 3000,
+    "isActive": true,
+    "clickCount": 0,
+    "viewCount": 1,
+    "createdAt": "2026-07-26T12:20:40.212Z",
+    "updatedAt": "2026-07-26T12:22:27.720Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a2e701600ebcc6aefef3de4",
+    "name": "Kids Smart Toy Robot",
+    "price": 8500,
+    "isActive": true,
+    "clickCount": 2,
+    "storeLocation": {
+      "floor": "3",
+      "storeNumber": "Bachaa Party"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=500&q=80",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "All",
+        "_id": "6a2e701600ebcc6aefef3de5"
+      }
+    ],
+    "__v": 0,
+    "updatedAt": "2026-07-26T14:05:52.418Z",
+    "brand": "ToyTech",
+    "category": "Electronics",
+    "description": "An interactive smart robot toy with sound, light and movement responses that kids can control and play with. Durable, battery-powered, and built for hours of imaginative play.",
+    "targetWeather": "All"
+  },
+  {
+    "_id": "6a2e701600ebcc6aefef3de1",
+    "name": "Summer Floral Dress",
+    "price": 3200,
+    "isActive": true,
+    "clickCount": 0,
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "Khaadi"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500&q=80",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a2e701600ebcc6aefef3de2"
+      },
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a2e701600ebcc6aefef3de3"
+      }
+    ],
+    "__v": 0,
+    "brand": "Khaadi",
+    "category": "Clothes",
+    "description": "A lightweight floral summer dress in a breathable fabric, cut for a relaxed, flattering fit. Perfect for warm-weather days out or casual everyday wear.",
+    "targetWeather": "Hot",
+    "updatedAt": "2026-07-26T14:05:52.423Z"
+  },
+  {
+    "_id": "6a2e701600ebcc6aefef3de6",
+    "name": "Wireless Gaming Headset",
+    "price": 6000,
+    "isActive": true,
+    "clickCount": 0,
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "N/A"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500&q=80",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a2ec8701c6ce26df5c504f9"
+      }
+    ],
+    "__v": 0,
+    "brand": "SoundWave",
+    "category": "Electronics",
+    "description": "A wireless gaming headset with immersive surround sound and a noise-cancelling microphone for clear in-game communication. Padded ear cushions and a lightweight frame keep it comfortable through long sessions.",
+    "storeName": "",
+    "updatedAt": "2026-07-26T14:05:52.427Z",
+    "targetWeather": "All"
+  },
+  {
+    "_id": "6a2e701600ebcc6aefef3dde",
+    "name": "Premium Leather Watch",
+    "price": 4500,
+    "isActive": true,
+    "clickCount": 8,
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "Hub"
+    },
+    "imageUrl": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500&q=80",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a2e701600ebcc6aefef3ddf"
+      },
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a2e701600ebcc6aefef3de0"
+      }
+    ],
+    "__v": 0,
+    "updatedAt": "2026-07-26T14:05:52.425Z",
+    "viewCount": 1,
+    "brand": "Timepiece Co.",
+    "category": "Accessories",
+    "description": "A premium genuine-leather strap watch with a classic analog face, built to complement both formal and casual outfits. Durable movement and timeless styling make it a long-lasting everyday accessory.",
+    "targetWeather": "All"
+  },
+  {
+    "_id": "6a2e77023f6aa637cab87f02",
+    "name": "Hanger Shirt",
+    "imageUrl": "https://thehangerpakistan.com/cdn/shop/files/IMG-9060.jpg?v=1724855461&width=600",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a2ec5f13c59eb83a4ec9e27"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "N/A"
+    },
+    "price": 1600,
+    "isActive": true,
+    "clickCount": 9,
+    "createdAt": "2026-06-14T09:40:18.373Z",
+    "updatedAt": "2026-07-24T21:21:14.648Z",
+    "__v": 0,
+    "storeName": "Hanger",
+    "brand": "Hanger",
+    "description": "",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88ab2",
+    "name": "Men's Leather Slip-On Loafers",
+    "brand": "ComfortStep",
+    "description": "Penny loafer in genuine nappa leather with memory-foam insole. Wide-fit available.",
+    "imageUrl": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a2eed40f56cd30b67f88ab3"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Step Up Footwear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "B-11"
+    },
+    "price": 4999,
+    "isActive": true,
+    "clickCount": 2,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.953Z",
+    "updatedAt": "2026-07-26T12:42:21.869Z",
+    "viewCount": 4
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a8a",
+    "name": "Boys Graphic T-Shirt",
+    "brand": "KidZone",
+    "description": "Fun dinosaur print cotton tee — soft, breathable, easy to wash. Perfect for active play days.",
+    "imageUrl": "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?w=600&h=600&fit=crop&q=80",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a2eed40f56cd30b67f88a8b"
+      }
+    ],
+    "targetWeather": "Sunny",
+    "targetEventTags": [],
+    "storeName": "KidZone Kids Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "A-04"
+    },
+    "price": 799,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.943Z",
+    "updatedAt": "2026-06-14T18:04:48.943Z"
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88ab0",
+    "name": "Women's Premium Lawn Printed Suit",
+    "brand": "Sapphire+",
+    "description": "3-piece lawn suit with digital print dupatta and trouser. Unstitched, ready to customise.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTPThOScLm2oz0PuSxWjA2_ibP3qlLQQf_f94eWHnz9g&s=10",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a2eef0a03aee8edd606c59a"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "Classic Ethnic Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "N/A"
+    },
+    "price": 2999,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.952Z",
+    "updatedAt": "2026-07-24T21:22:04.107Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88aa2",
+    "name": "Men's Slim Oxford Shirt",
+    "brand": "BriefCase",
+    "description": "Two-ply 100% Egyptian cotton. Semi-spread collar, single chest pocket, machine washable.",
+    "imageUrl": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=600&h=600&fit=crop&q=80",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a2eed40f56cd30b67f88aa3"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "BriefCase Menswear",
+    "storeLocation": {
+      "floor": "3",
+      "storeNumber": "C-07"
+    },
+    "price": 2999,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.950Z",
+    "updatedAt": "2026-07-24T21:21:14.648Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88aa8",
+    "name": "Women's Tote Handbag",
+    "brand": "MaisonBag",
+    "description": "Structured vegan leather tote with suede lining, two interior zip pockets, magnetic snap.",
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a2eed40f56cd30b67f88aa9"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Carry On Bags & More",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "B-08"
+    },
+    "price": 6999,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.952Z",
+    "updatedAt": "2026-06-14T18:04:48.952Z"
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a90",
+    "name": "Boys Denim Jacket",
+    "brand": "DenimLittle",
+    "description": "Classic button-up denim jacket with two chest pockets. Slim fit, available in blue wash.",
+    "imageUrl": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600&h=600&fit=crop&q=80",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a2eed40f56cd30b67f88a91"
+      }
+    ],
+    "targetWeather": "Cold",
+    "targetEventTags": [],
+    "storeName": "KidZone Kids Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "A-04"
+    },
+    "price": 1999,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.947Z",
+    "updatedAt": "2026-06-14T18:04:48.947Z"
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a9c",
+    "name": "Mini Crossbody Sling Bag",
+    "brand": "PackIt",
+    "description": "Faux-leather crossbody with adjustable strap and zip closure. Fits phone, cards, keys.",
+    "imageUrl": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a2eed40f56cd30b67f88a9d"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Carry On Bags & More",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "B-08"
+    },
+    "price": 1999,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.948Z",
+    "updatedAt": "2026-07-26T12:39:22.250Z",
+    "viewCount": 3
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88ab8",
+    "name": "Women's Pashmina Silk Shawl",
+    "brand": "KashmirLoom",
+    "description": "Hand-woven 70% pashmina / 30% silk blend shawl. Intricate paisley border, gift-boxed.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6KKD9hjG_WULx0qY7hZGkYHlgFATqrbcEARVyONjioQ&s=10",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a3978d0b1dda703249a5c5a"
+      }
+    ],
+    "targetWeather": "Cold",
+    "targetEventTags": [],
+    "storeName": "Classic Ethnic Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "N/A"
+    },
+    "price": 39998,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.953Z",
+    "updatedAt": "2026-06-22T18:02:56.621Z"
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a8c",
+    "name": "Girls Floral Summer Frock",
+    "brand": "Pinky",
+    "description": "Lightweight chiffon frock with floral print. Knee-length, easy fit, machine washable.",
+    "imageUrl": "https://images.unsplash.com/photo-1518791841217-8d020891455?w=600&h=600&fit=crop&q=80",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a2eed40f56cd30b67f88a8d"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "Pinky Little Fashion",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "A-06"
+    },
+    "price": 1299,
+    "isActive": false,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.946Z",
+    "updatedAt": "2026-07-26T12:37:57.496Z"
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88aa4",
+    "name": "Women's Boho Maxi Dress",
+    "brand": "LunaWear",
+    "description": "Flowy rayon maxi dress with paisley print, smocked waist, and flutter sleeves.",
+    "imageUrl": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=600&fit=crop&q=80",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a2eed40f56cd30b67f88aa5"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "LunaWear Women's Fashion",
+    "storeLocation": {
+      "floor": "3",
+      "storeNumber": "C-15"
+    },
+    "price": 4499,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.951Z",
+    "updatedAt": "2026-07-21T20:27:30.709Z"
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88ab4",
+    "name": "Women's Orthopedic Comfort Flats",
+    "brand": "EasyWalk",
+    "description": "Wide-toe box with arch-support insole. Soft leather upper, non-slip rubber sole.",
+    "imageUrl": "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a2eed40f56cd30b67f88ab5"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Step Up Footwear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "B-11"
+    },
+    "price": 2499,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.953Z",
+    "updatedAt": "2026-07-26T13:40:18.732Z",
+    "viewCount": 3
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88aaa",
+    "name": "Men's Brogue Oxford Shoes",
+    "brand": "HeelCraft",
+    "description": "Genuine leather upper with wingtip brogue detailing. Leather-lined, rubber-heel outsole.",
+    "imageUrl": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a2eed40f56cd30b67f88aab"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Step Up Footwear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "B-11"
+    },
+    "price": 7499,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.952Z",
+    "updatedAt": "2026-07-26T13:38:37.710Z",
+    "viewCount": 3
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a9a",
+    "name": "High-Top Running Trainers",
+    "brand": "ZoomX",
+    "description": "Lightweight mesh upper with foam-padded ankle collar. Rubber outsole with grip pattern.",
+    "imageUrl": "https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "All",
+        "_id": "6a2eed40f56cd30b67f88a9b"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Step Up Footwear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "B-11"
+    },
+    "price": 4999,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.948Z",
+    "updatedAt": "2026-07-26T12:39:22.250Z",
+    "viewCount": 3
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88aa6",
+    "name": "Men's Bi-Fold Leather Wallet",
+    "brand": "VaultCraft",
+    "description": "Full-grain cowhide leather, 8 card slots, RFID-blocking lining. Slim profile.",
+    "imageUrl": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a2eed40f56cd30b67f88aa7"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "VaultCraft Leather Goods",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "B-03"
+    },
+    "price": 1999,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.951Z",
+    "updatedAt": "2026-07-26T13:40:48.717Z",
+    "viewCount": 4
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88aa0",
+    "name": "Teen Stud Earring Set (6 pairs)",
+    "brand": "GlimmerCo",
+    "description": "Hypoallergenic stainless steel studs — stars, hoops, pearls. Gift-ready packaging.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCIM8D7XLCRZf-Ti7jtWX-9w68bsav9XaD1yynL0aoBw&s=10",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a2eef2b03aee8edd606c5bd"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Twinkle Accessories",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "N/A"
+    },
+    "price": 599,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.950Z",
+    "updatedAt": "2026-07-26T09:15:48.340Z",
+    "viewCount": 2
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88ab6",
+    "name": "Men's Reading Glasses (+2.0)",
+    "brand": "ClearVision",
+    "description": "Lightweight titanium frame reading glasses with anti-glare coating. Case included.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDd76DVagZYJacbU84h2qZmQj5Gb-ya6Qcv__chud-hw&s=10",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a2eeed703aee8edd606c554"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "ClearVision Opticals",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "N/A"
+    },
+    "price": 1499,
+    "isActive": true,
+    "clickCount": 3,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.953Z",
+    "updatedAt": "2026-07-26T12:42:21.869Z",
+    "viewCount": 4
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88aac",
+    "name": "Women's Analogue Wrist Watch",
+    "brand": "ChronoLux",
+    "description": "Rose gold stainless steel case, Japanese quartz movement, genuine leather strap.",
+    "imageUrl": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a2eed40f56cd30b67f88aad"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "ChronoLux Watches",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "A-18"
+    },
+    "price": 8999,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.952Z",
+    "updatedAt": "2026-06-15T17:04:13.947Z"
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a9e",
+    "name": "Graphic Statement Tee",
+    "brand": "UrbanPulse",
+    "description": "Boxy-fit 100% cotton tee with bold screen-printed slogan. Pre-washed for softness.",
+    "imageUrl": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=600&fit=crop&q=80",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a3981dacc1c98800dc73fae"
+      }
+    ],
+    "targetWeather": "Sunny",
+    "targetEventTags": [],
+    "storeName": "UrbanPulse Street Wear",
+    "storeLocation": {
+      "floor": "3",
+      "storeNumber": "N/A"
+    },
+    "price": 1299,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.949Z",
+    "updatedAt": "2026-06-22T18:41:30.572Z"
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a94",
+    "name": "Kids Hair Clip Set (12 pcs)",
+    "brand": "Twinkle",
+    "description": "Assorted pastel bow and pearl clips. Gentle on hair, suitable for ages 3–10.",
+    "imageUrl": "https://images.unsplash.com/photo-1591369822096-ffd140ec948b?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a2eed40f56cd30b67f88a95"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Twinkle Accessories",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "A-12"
+    },
+    "price": 399,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.947Z",
+    "updatedAt": "2026-06-14T18:04:48.947Z"
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a98",
+    "name": "Slim-Fit Cargo Joggers",
+    "brand": "StreetFlex",
+    "description": "Tapered leg, elasticated waist with drawstring. Six cargo pockets, cotton-spandex blend.",
+    "imageUrl": "https://images.unsplash.com/photo-1596755389378-c31d21fd1273?w=600&h=600&fit=crop&q=80",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a2eed40f56cd30b67f88a99"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "UrbanPulse Street Wear",
+    "storeLocation": {
+      "floor": "3",
+      "storeNumber": "C-02"
+    },
+    "price": 1799,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.948Z",
+    "updatedAt": "2026-06-14T18:04:48.948Z"
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88aae",
+    "name": "Men's Embroidered Kurta Shalwar",
+    "brand": "Chiffon & Co.",
+    "description": "Soft lawn fabric with delicate thread embroidery on collar. Relaxed fit, ideal for formal occasions.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnQSdIHvfgn-RnJ8GXkoj2wsVZ-aUixzcaSGIBUI6nrg&s=10",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a2eeeef03aee8edd606c577"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Ethnic Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "N/A"
+    },
+    "price": 3499,
+    "isActive": true,
+    "clickCount": 3,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.952Z",
+    "updatedAt": "2026-07-26T09:17:01.800Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a8e",
+    "name": "Kids Unisex Sneakers",
+    "brand": "Lil Kicks",
+    "description": "Velcro-closure canvas sneakers with cushioned insoles. Slip-resistant sole for active kids.",
+    "imageUrl": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "All",
+        "_id": "6a2eed40f56cd30b67f88a8f"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Step Up Footwear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "B-11"
+    },
+    "price": 1899,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.946Z",
+    "updatedAt": "2026-07-26T12:38:24.382Z",
+    "viewCount": 2
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a92",
+    "name": "Girls School Backpack",
+    "brand": "Carry On",
+    "description": "Colourful padded backpack with ergonomic straps and a front pocket for stationery.",
+    "imageUrl": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=600&fit=crop&q=80",
+    "category": "Accessories",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "All",
+        "_id": "6a57db3d4429d9a7bb0f062f"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Carry On Bags & More",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "N/A"
+    },
+    "price": 1499,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.947Z",
+    "updatedAt": "2026-07-26T12:38:24.382Z",
+    "viewCount": 2
+  },
+  {
+    "_id": "6a2eed40f56cd30b67f88a96",
+    "name": "Oversized Fleece Hoodie",
+    "brand": "UrbanPulse",
+    "description": "Drop-shoulder hoodie in heavyweight 320gsm fleece. Kangaroo pocket, rib-knit cuffs.",
+    "imageUrl": "https://images.unsplash.com/photo-1559056194-d73f42204d8b?w=600&h=600&fit=crop&q=80",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "All",
+        "_id": "6a2eed40f56cd30b67f88a97"
+      }
+    ],
+    "targetWeather": "Cold",
+    "targetEventTags": [],
+    "storeName": "UrbanPulse Street Wear",
+    "storeLocation": {
+      "floor": "3",
+      "storeNumber": "C-02"
+    },
+    "price": 2499,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-14T18:04:48.948Z",
+    "updatedAt": "2026-06-14T18:04:48.948Z"
+  },
+  {
+    "_id": "6a3977b1d38bdff1dae743a7",
+    "name": "Mango Sorbet",
+    "brand": "FrozenFresh",
+    "description": "Tropical Alphonso mango sorbet — 100% real fruit, no artificial colours. Refreshingly fruity!",
+    "imageUrl": "/weather-products/mango-sorbet.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7da8d450f51bf624c72"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "FrozenFresh Counter",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "G-15"
+    },
+    "price": 300,
+    "isActive": false,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-06-22T17:58:09.090Z",
+    "updatedAt": "2026-07-21T19:17:08.102Z"
+  },
+  {
+    "_id": "6a3977b1d38bdff1dae743a9",
+    "name": "Cookies & Cream Sundae",
+    "brand": "FrozenFresh",
+    "description": "Vanilla ice cream loaded with Oreo cookie crumbles, hot fudge & whipped cream. Pure indulgence!",
+    "imageUrl": "/weather-products/cookies-cream-sundae.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7da8d450f51bf624c74"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "FrozenFresh Counter",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "G-15"
+    },
+    "price": 300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-22T17:58:09.090Z",
+    "updatedAt": "2026-07-26T13:40:18.732Z",
+    "viewCount": 3
+  },
+  {
+    "_id": "6a3977b1d38bdff1dae743ab",
+    "name": "Pistachio Delight",
+    "brand": "IceLand",
+    "description": "Premium pistachio ice cream made with roasted Iranian pistachios. Rich, nutty & luxurious.",
+    "imageUrl": "/weather-products/pistachio-delight.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "All",
+        "_id": "6a3ac7da8d450f51bf624c76"
+      },
+      {
+        "age": "Senior",
+        "gender": "All",
+        "_id": "6a3ac7da8d450f51bf624c77"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "IceLand Premium",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "A-08"
+    },
+    "price": 300,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-06-22T17:58:09.090Z",
+    "updatedAt": "2026-07-26T13:40:50.513Z",
+    "viewCount": 3
+  },
+  {
+    "_id": "6a3977b1d38bdff1dae743ae",
+    "name": "Rainbow Popsicle",
+    "brand": "IceLand",
+    "description": "Colourful fruit popsicle with layers of strawberry, orange & lemon. Fun for the whole family!",
+    "imageUrl": "/weather-products/rainbow-popsicle.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7da8d450f51bf624c79"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "IceLand Premium",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "A-08"
+    },
+    "price": 300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-22T17:58:09.090Z",
+    "updatedAt": "2026-07-26T12:39:50.199Z",
+    "viewCount": 2
+  },
+  {
+    "_id": "6a3977b1d38bdff1dae743b0",
+    "name": "Mint Choco Chip",
+    "brand": "IceLand",
+    "description": "Cool mint ice cream packed with dark chocolate chips. The ultimate refreshing summer treat!",
+    "imageUrl": "/weather-products/mint-choco-chip.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7da8d450f51bf624c7b"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "IceLand Premium",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "A-08"
+    },
+    "price": 300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-22T17:58:09.091Z",
+    "updatedAt": "2026-07-26T12:40:31.318Z",
+    "viewCount": 2
+  },
+  {
+    "_id": "6a397ae00f25de218da38e9f",
+    "name": "Ice Cream Cone",
+    "brand": "Yummy Scoops",
+    "description": "Beat the heat! Fresh scoops of strawberry, vanilla & chocolate ice cream in a crispy waffle cone.",
+    "imageUrl": "/weather-products/ice-cream-cone.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7d88d450f51bf624c67"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "Yummy Scoops Parlour",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "G-12"
+    },
+    "price": 450,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-22T18:11:44.111Z",
+    "updatedAt": "2026-07-26T12:40:31.318Z",
+    "viewCount": 2
+  },
+  {
+    "_id": "6a397ae00f25de218da38ea1",
+    "name": "Chilled Cold Drink",
+    "brand": "FreshCool",
+    "description": "Refreshing iced beverages — lemonade, mint cooler & tropical fruit punch. Stay cool this summer!",
+    "imageUrl": "/weather-products/cold-drink.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7da8d450f51bf624c7d"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "FreshCool Beverages",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "G-14"
+    },
+    "price": 250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-22T18:11:44.112Z",
+    "updatedAt": "2026-07-26T12:41:10.654Z",
+    "viewCount": 2
+  },
+  {
+    "_id": "6a397ae00f25de218da38ea3",
+    "name": "Summer Sale — 50% OFF",
+    "brand": "Smart Mall",
+    "description": "Exclusive summer deals across all stores! Grab the best offers on clothes, accessories & electronics.",
+    "imageUrl": "/weather-products/summer-sale.jpg",
+    "category": "Other",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7db8d450f51bf624c7f"
+      }
+    ],
+    "targetWeather": "Hot",
+    "targetEventTags": [],
+    "storeName": "Smart Mall Promotions",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "INFO"
+    },
+    "price": 0,
+    "isActive": false,
+    "clickCount": 2,
+    "__v": 0,
+    "createdAt": "2026-06-22T18:11:44.112Z",
+    "updatedAt": "2026-07-26T12:37:42.668Z",
+    "viewCount": 2
+  },
+  {
+    "_id": "6a397ae00f25de218da38ea5",
+    "name": "Hot Coffee",
+    "brand": "BrewMaster",
+    "description": "Freshly brewed premium coffee — cappuccino, latte & americano. Warm up with every sip!",
+    "imageUrl": "/weather-products/hot-coffee.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7db8d450f51bf624c81"
+      }
+    ],
+    "targetWeather": "Cold",
+    "targetEventTags": [],
+    "storeName": "BrewMaster Café",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "B-05"
+    },
+    "price": 350,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-22T18:11:44.113Z",
+    "updatedAt": "2026-06-23T17:52:27.156Z"
+  },
+  {
+    "_id": "6a397ae00f25de218da38ea7",
+    "name": "Green Tea",
+    "brand": "TeaLeaf",
+    "description": "Soothing hot green tea brewed with premium loose-leaf. Healthy, warm & calming for cold days.",
+    "imageUrl": "/weather-products/green-tea.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7db8d450f51bf624c83"
+      }
+    ],
+    "targetWeather": "Cold",
+    "targetEventTags": [],
+    "storeName": "TeaLeaf Lounge",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "B-07"
+    },
+    "price": 280,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-22T18:11:44.113Z",
+    "updatedAt": "2026-06-23T17:52:27.302Z"
+  },
+  {
+    "_id": "6a397ae00f25de218da38ea9",
+    "name": "Winter Jacket",
+    "brand": "WarmWear",
+    "description": "Premium quilted winter jacket with water-resistant shell. Multiple sizes & colours available.",
+    "imageUrl": "/weather-products/winter-jacket.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "Female",
+        "_id": "6a57db164429d9a7bb0f05c1"
+      }
+    ],
+    "targetWeather": "Cold",
+    "targetEventTags": [],
+    "storeName": "WarmWear Outlet",
+    "storeLocation": {
+      "floor": "3",
+      "storeNumber": "N/A"
+    },
+    "price": 4500,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-22T18:11:44.113Z",
+    "updatedAt": "2026-07-15T19:10:14.432Z"
+  },
+  {
+    "_id": "6a397ae00f25de218da38eab",
+    "name": "Premium Umbrella",
+    "brand": "RainShield",
+    "description": "Windproof auto-open umbrella with UV-coated colourful canopy. Compact, lightweight & sturdy.",
+    "imageUrl": "/weather-products/umbrella.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "Female",
+        "_id": "6a57db244429d9a7bb0f05f8"
+      }
+    ],
+    "targetWeather": "Rain",
+    "targetEventTags": [],
+    "storeName": "RainShield Store",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "N/A"
+    },
+    "price": 1200,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-22T18:11:44.113Z",
+    "updatedAt": "2026-07-15T19:10:28.022Z"
+  },
+  {
+    "_id": "6a397ae00f25de218da38ead",
+    "name": "Waterproof Raincoat",
+    "brand": "DryGuard",
+    "description": "100% waterproof hooded raincoat with sealed seams. Available S to XXL. Stay dry in style!",
+    "imageUrl": "/weather-products/raincoat.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "Male",
+        "_id": "6a57db0f4429d9a7bb0f058a"
+      }
+    ],
+    "targetWeather": "Rain",
+    "targetEventTags": [],
+    "storeName": "DryGuard Fashion",
+    "storeLocation": {
+      "floor": "3",
+      "storeNumber": "N/A"
+    },
+    "price": 3800,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-06-22T18:11:44.113Z",
+    "updatedAt": "2026-07-26T12:36:27.423Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a397ae00f25de218da38eaf",
+    "name": "Special Deals — Today Only!",
+    "brand": "Smart Mall",
+    "description": "Handpicked daily deals across all floors. Electronics, fashion, food & more — shop & save today!",
+    "imageUrl": "/weather-products/special-deals.jpg",
+    "category": "Other",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7db8d450f51bf624c8b"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Smart Mall Promotions",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "INFO"
+    },
+    "price": 0,
+    "isActive": false,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-06-22T18:11:44.113Z",
+    "updatedAt": "2026-07-21T19:13:57.561Z"
+  },
+  {
+    "_id": "6a397f7f34e2a5a266381f96",
+    "name": "Strawberry Scoop",
+    "brand": "Yummy Scoops",
+    "description": "Fresh strawberry ice cream with real fruit chunks. Cool, creamy & refreshing — perfect for summer!",
+    "imageUrl": "/weather-products/strawberry-scoop.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7d98d450f51bf624c69"
+      }
+    ],
+    "targetWeather": "Hot",
+    "storeName": "Yummy Scoops Parlour",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "G-12"
+    },
+    "price": 300,
+    "isActive": true,
+    "clickCount": 2,
+    "__v": 0,
+    "updatedAt": "2026-07-26T12:41:10.654Z",
+    "viewCount": 3
+  },
+  {
+    "_id": "6a397f7f34e2a5a266381f9a",
+    "name": "Chocolate Fudge Cone",
+    "brand": "Yummy Scoops",
+    "description": "Rich Belgian chocolate ice cream in a crispy waffle cone. Double chocolate fudge drizzle on top!",
+    "imageUrl": "/weather-products/chocolate-fudge-cone.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7d98d450f51bf624c6b"
+      }
+    ],
+    "targetWeather": "Hot",
+    "storeName": "Yummy Scoops Parlour",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "G-12"
+    },
+    "price": 300,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "updatedAt": "2026-07-26T12:41:55.141Z",
+    "viewCount": 3
+  },
+  {
+    "_id": "6a397f7f34e2a5a266381f9e",
+    "name": "Vanilla Dream Bowl",
+    "brand": "Yummy Scoops",
+    "description": "Classic creamy vanilla ice cream served in a bowl. Made with pure Madagascar vanilla — timeless & delicious.",
+    "imageUrl": "/weather-products/vanilla-dream-bowl.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "All",
+        "gender": "All",
+        "_id": "6a3ac7d98d450f51bf624c6d"
+      }
+    ],
+    "targetWeather": "Hot",
+    "storeName": "Yummy Scoops Parlour",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "G-12"
+    },
+    "price": 300,
+    "isActive": true,
+    "clickCount": 2,
+    "__v": 0,
+    "updatedAt": "2026-07-26T13:38:37.710Z",
+    "viewCount": 3
+  },
+  {
+    "_id": "6a397f8034e2a5a266381fa2",
+    "name": "Pink Unicorn Cone",
+    "brand": "Yummy Scoops",
+    "description": "Eye-catching pink bubblegum ice cream with rainbow sprinkles. Kids' absolute favourite!",
+    "imageUrl": "/weather-products/pink-unicorn-cone.jpg",
+    "category": "Food",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "All",
+        "_id": "6a3ac7da8d450f51bf624c6f"
+      },
+      {
+        "age": "Young",
+        "gender": "All",
+        "_id": "6a3ac7da8d450f51bf624c70"
+      }
+    ],
+    "targetWeather": "Hot",
+    "storeName": "Yummy Scoops Parlour",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "G-12"
+    },
+    "price": 300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "updatedAt": "2026-07-26T12:39:50.199Z",
+    "viewCount": 2
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afed",
+    "name": "Women's Neutral Toned Fashion Mannequin In Kurta",
+    "brand": "Élan Women's Wear",
+    "description": "A kurta from Élan Women's Wear, styled for everyday wear. A versatile piece made from quality, easy-care fabric.",
+    "imageUrl": "/clothing-products/adult-female/neutral_toned_fashion_mannequin_in_kurta.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afee"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 7300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.150Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599aff9",
+    "name": "Men's Outfit 6",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/5.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599affa"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 4250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.161Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b021",
+    "name": "Girls' Faceless Mannequin In Denim Dress",
+    "brand": "Little Blossoms",
+    "description": "A denim dress from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/faceless_mannequin_in_denim_dress.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599b022"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 1150,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.164Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b05f",
+    "name": "Boys' Traditional Kurta And Sandals Model Shot",
+    "brand": "Kids Zone",
+    "description": "A kurta from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/traditional_kurta_and_sandals_model_shot.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b060"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 2150,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.168Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b081",
+    "name": "Women's Senior Female Product 4",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Elegant, understated styling with an emphasis on comfort.",
+    "imageUrl": "/clothing-products/senior-female/senior_female_product_4.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b082"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 4500,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.172Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b09d",
+    "name": "Men's Minimalist Fashion Mannequin Display",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Classic styling with an emphasis on comfort and quality.",
+    "imageUrl": "/clothing-products/senior-male/minimalist_fashion_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b09e"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 4800,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.165Z",
+    "updatedAt": "2026-07-26T14:05:52.175Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0a7",
+    "name": "Men's Minimalist Mannequin In Stylish Outfit",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/minimalist_mannequin_in_stylish_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0a8"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 14200,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.165Z",
+    "updatedAt": "2026-07-26T14:05:52.177Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0c3",
+    "name": "Women's White Cobalt Gharara",
+    "brand": "Chic Trends",
+    "description": "A gharara from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/07_white_cobalt_gharara.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0c4"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 5900,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.179Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0d1",
+    "name": "Women's Outfit 14",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. A versatile piece that is easy to dress up or down.",
+    "imageUrl": "/clothing-products/young-female/2.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0d2"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 7000,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.182Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0e1",
+    "name": "Men's Casual Menswear On Mannequin In Studio",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/casual_menswear_on_mannequin_in_studio.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0e2"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 1550,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.184Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0e7",
+    "name": "Men's Mannequin In Plaid Shirt And Jeans",
+    "brand": "Urban Threads",
+    "description": "A pair of jeans from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/mannequin_in_plaid_shirt_and_jeans.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0e8"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 4700,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.186Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0ed",
+    "name": "Men's Minimalist Mannequin Fashion Display",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Lightweight and breathable, built for everyday wear.",
+    "imageUrl": "/clothing-products/young-male/minimalist_mannequin_fashion_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0ee"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 7100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.187Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afe1",
+    "name": "Women's Minimalist Fashion Mannequin In Green Outfit",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. Tailored for an elegant, comfortable fit suited to everyday occasions.",
+    "imageUrl": "/clothing-products/adult-female/minimalist_fashion_mannequin_in_green_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afe2"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 3550,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.152Z",
+    "updatedAt": "2026-07-26T14:05:52.189Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b003",
+    "name": "Men's Business Casual Mannequin On Neutral Backdrop",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Tailored for a comfortable, classic fit suited to work or casual outings.",
+    "imageUrl": "/clothing-products/adult-male/business_casual_mannequin_on_neutral_backdrop.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b004"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 6900,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.191Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b005",
+    "name": "Men's Elegant South Asian Fashion Display",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Tailored for a comfortable, classic fit suited to work or casual outings.",
+    "imageUrl": "/clothing-products/adult-male/elegant_south_asian_fashion_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b006"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 16150,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.193Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b01d",
+    "name": "Girls' Children S Outfit Catalog Shot",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/children_s_outfit_catalog_shot.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599b01e"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 4300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.195Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b025",
+    "name": "Girls' Minimalist Athleisure Mannequin Shot",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. A cheerful, practical piece that is easy to wash and wear again.",
+    "imageUrl": "/clothing-products/child-female/minimalist_athleisure_mannequin_shot.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b026"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 4100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.196Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b02f",
+    "name": "Girls' Minimalist Mannequin In Mint Outfit",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/minimalist_mannequin_in_mint_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b030"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 4000,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.197Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b069",
+    "name": "Women's A Clean Minimalist Studio Fashion Product Photo W 2",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Elegant, understated styling with an emphasis on comfort.",
+    "imageUrl": "/clothing-products/senior-female/a_clean_minimalist_studio_fashion_product_photo_w_2_batch_2.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b06a"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 12750,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.199Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0d3",
+    "name": "Women's Outfit 15",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. A versatile piece that is easy to dress up or down.",
+    "imageUrl": "/clothing-products/young-female/3.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0d4"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 2400,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.201Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599aff3",
+    "name": "Men's Outfit 3",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/2.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599aff4"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 12400,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.203Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b033",
+    "name": "Girls' Pastel Princess Dress On Mannequin",
+    "brand": "Little Blossoms",
+    "description": "A dress from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/pastel_princess_dress_on_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b034"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 3350,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.204Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b04d",
+    "name": "Boys' Golden Kurta On Mannequin Display",
+    "brand": "Kids Zone",
+    "description": "A kurta from Kids Zone, styled for everyday wear. Made from soft, easy-care fabric built for a full day of play.",
+    "imageUrl": "/clothing-products/child-male/golden_kurta_on_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b04e"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 1450,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.205Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b07b",
+    "name": "Women's Senior Female Product 10",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Elegant, understated styling with an emphasis on comfort.",
+    "imageUrl": "/clothing-products/senior-female/senior_female_product_10.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b07c"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 3100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.207Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b099",
+    "name": "Men's Formal South Asian Inspired Attire Showcase",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/formal_south_asian_inspired_attire_showcase.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b09a"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 11500,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.163Z",
+    "updatedAt": "2026-07-26T14:05:52.208Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0bb",
+    "name": "Women's Ivory Mint Embroidered Set",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/03_ivory_mint_embroidered_set.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0bc"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 7300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.167Z",
+    "updatedAt": "2026-07-26T14:05:52.210Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0c5",
+    "name": "Women's Lavender Cape Outfit",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/08_lavender_cape_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0c6"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 9250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.212Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afd3",
+    "name": "Women's Adult Female 07",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. A versatile piece made from quality, easy-care fabric.",
+    "imageUrl": "/clothing-products/adult-female/Adult_Female_07.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afd4"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 18450,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.151Z",
+    "updatedAt": "2026-07-26T14:05:52.214Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b02b",
+    "name": "Girls' Minimalist Fashion Display With Cheerful Details",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/minimalist_fashion_display_with_cheerful_details.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b02c"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 1450,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.215Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b047",
+    "name": "Boys' Child Mannequin In Smart Casual Outfit",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/child_mannequin_in_smart_casual_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b048"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 3300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.217Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b04b",
+    "name": "Boys' Child Mannequin In Traditional South Asian Outfit",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Made from soft, easy-care fabric built for a full day of play.",
+    "imageUrl": "/clothing-products/child-male/child_mannequin_in_traditional_south_asian_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b04c"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 2100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.218Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b095",
+    "name": "Men's Formal Black Attire On Minimalist Mannequin",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/formal_black_attire_on_minimalist_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1dc7c21e70c0045eb40d"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 3050,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.159Z",
+    "updatedAt": "2026-07-26T14:05:52.219Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0ad",
+    "name": "Men's Minimalist Traditional South Asian Outfit Display",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Classic styling with an emphasis on comfort and quality.",
+    "imageUrl": "/clothing-products/senior-male/minimalist_traditional_south_asian_outfit_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0ae"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 3800,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.167Z",
+    "updatedAt": "2026-07-26T14:05:52.220Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0af",
+    "name": "Men's Minimalistic Mannequin In Traditional Attire",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Classic styling with an emphasis on comfort and quality.",
+    "imageUrl": "/clothing-products/senior-male/minimalistic_mannequin_in_traditional_attire.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0b0"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 8950,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.167Z",
+    "updatedAt": "2026-07-26T14:05:52.221Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0df",
+    "name": "Women's Outfit 21",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/9.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0e0"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 4800,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.223Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0f1",
+    "name": "Men's Minimalist Mannequin In Casual Outfit",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Lightweight and breathable, built for everyday wear.",
+    "imageUrl": "/clothing-products/young-male/minimalist_mannequin_in_casual_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0f2"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 8000,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.224Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0f7",
+    "name": "Men's Minimalist Mannequin With Casual Outfit",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Lightweight and breathable, built for everyday wear.",
+    "imageUrl": "/clothing-products/young-male/minimalist_mannequin_with_casual_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0f8"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 5950,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.226Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afcb",
+    "name": "Women's Adult Female 03",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. A versatile piece made from quality, easy-care fabric.",
+    "imageUrl": "/clothing-products/adult-female/Adult_Female_03.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afcc"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 6050,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.149Z",
+    "updatedAt": "2026-07-26T14:05:52.227Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afef",
+    "name": "Men's Outfit 1",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/1.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599aff0"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 2550,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.228Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b01f",
+    "name": "Girls' Elegant Ethnic Inspired Mannequin Display",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/elegant_ethnic_inspired_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599b020"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 3800,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.230Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b02d",
+    "name": "Girls' Minimalist Fashion Mannequin In Burgundy Dress",
+    "brand": "Little Blossoms",
+    "description": "A dress from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/minimalist_fashion_mannequin_in_burgundy_dress.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b02e"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 1350,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.232Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b031",
+    "name": "Girls' Pastel Floral Dress On Child Mannequin",
+    "brand": "Little Blossoms",
+    "description": "A dress from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/pastel_floral_dress_on_child_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b032"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 2100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.234Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b039",
+    "name": "Girls' Traditional Mustard Yellow Outfit Display",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/traditional_mustard_yellow_outfit_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b03a"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 1950,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.235Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b03d",
+    "name": "Girls' Turquoise Kurta With Dupatta Display",
+    "brand": "Little Blossoms",
+    "description": "A kurta from Little Blossoms, styled for everyday wear. A cheerful, practical piece that is easy to wash and wear again.",
+    "imageUrl": "/clothing-products/child-female/turquoise_kurta_with_dupatta_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b03e"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 4400,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.237Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b043",
+    "name": "Boys' Child Mannequin In Formal Attire",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/child_mannequin_in_formal_attire.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b044"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 3900,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.238Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b05b",
+    "name": "Boys' Traditional Children S Ethnic Wear Mannequin Displ",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/traditional_children_s_ethnic_wear_mannequin_displ.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b05c"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 2550,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.239Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b089",
+    "name": "Women's Senior Female Product 8",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Elegant, understated styling with an emphasis on comfort.",
+    "imageUrl": "/clothing-products/senior-female/senior_female_product_8.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b08a"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 3950,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.159Z",
+    "updatedAt": "2026-07-26T14:05:52.240Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b09f",
+    "name": "Men's Minimalist Fashion Mannequin In Beige Attire",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Classic styling with an emphasis on comfort and quality.",
+    "imageUrl": "/clothing-products/senior-male/minimalist_fashion_mannequin_in_beige_attire.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0a0"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 13100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.165Z",
+    "updatedAt": "2026-07-26T14:05:52.241Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0a5",
+    "name": "Men's Minimalist Mannequin In Business Attire",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/minimalist_mannequin_in_business_attire.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0a6"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 8400,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.165Z",
+    "updatedAt": "2026-07-26T14:05:52.243Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0c9",
+    "name": "Women's Outfit 10",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/1.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0ca"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 8350,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.245Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afdb",
+    "name": "Women's Elegant Minimalist Mannequin In Floral Tunic",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. Tailored for an elegant, comfortable fit suited to everyday occasions.",
+    "imageUrl": "/clothing-products/adult-female/elegant_minimalist_mannequin_in_floral_tunic.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afdc"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 10700,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.152Z",
+    "updatedAt": "2026-07-26T14:05:52.246Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afdf",
+    "name": "Women's Minimalist Fashion Mannequin Display",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. Tailored for an elegant, comfortable fit suited to everyday occasions.",
+    "imageUrl": "/clothing-products/adult-female/minimalist_fashion_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afe0"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 13050,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.152Z",
+    "updatedAt": "2026-07-26T14:05:52.248Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599aff7",
+    "name": "Men's Outfit 5",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/4.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599aff8"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 16700,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.250Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b001",
+    "name": "Men's Outfit 10",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Tailored for a comfortable, classic fit suited to work or casual outings.",
+    "imageUrl": "/clothing-products/adult-male/9.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b002"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 4450,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.251Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b007",
+    "name": "Men's Minimal Studio Mannequin Display",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Tailored for a comfortable, classic fit suited to work or casual outings.",
+    "imageUrl": "/clothing-products/adult-male/minimal_studio_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b008"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 5100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.253Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b011",
+    "name": "Men's Minimalist Mannequin With White Shirt And Trousers",
+    "brand": "Men's Avenue",
+    "description": "A pair of trousers from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/minimalist_mannequin_with_white_shirt_and_trousers.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b012"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 6400,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.255Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b037",
+    "name": "Girls' Traditional Girl S Outfit On Mannequin",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/traditional_girl_s_outfit_on_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b038"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 1650,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.257Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b059",
+    "name": "Boys' Studio Mannequin With Plaid Shirt And Khakis",
+    "brand": "Kids Zone",
+    "description": "A shirt from Kids Zone, styled for everyday wear. Made from soft, easy-care fabric built for a full day of play.",
+    "imageUrl": "/clothing-products/child-male/studio_mannequin_with_plaid_shirt_and_khakis.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b05a"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 3050,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.258Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b06d",
+    "name": "Women's A Clean Studio Lit Minimal Fashion Product Shot 9",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-female/a_clean_studio_lit_minimal_fashion_product_shot_9_batch_9.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b06e"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 14200,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.260Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b07d",
+    "name": "Women's Senior Female Product 2",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Elegant, understated styling with an emphasis on comfort.",
+    "imageUrl": "/clothing-products/senior-female/senior_female_product_2.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b07e"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 14850,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.261Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0b9",
+    "name": "Women's Peach Anarkali",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. A versatile piece that is easy to dress up or down.",
+    "imageUrl": "/clothing-products/young-female/02_peach_anarkali.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0ba"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 3450,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.167Z",
+    "updatedAt": "2026-07-26T14:05:52.262Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0d5",
+    "name": "Women's Outfit 16",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. A versatile piece that is easy to dress up or down.",
+    "imageUrl": "/clothing-products/young-female/4.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0d6"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 7850,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.264Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0e3",
+    "name": "Men's Formal Indo Western Mannequin In Brocade Sherwani",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/formal_indo_western_mannequin_in_brocade_sherwani.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0e4"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 4000,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.265Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afd1",
+    "name": "Women's Adult Female 06",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. A versatile piece made from quality, easy-care fabric.",
+    "imageUrl": "/clothing-products/adult-female/Adult_Female_06.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afd2"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 8750,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.150Z",
+    "updatedAt": "2026-07-26T14:05:52.266Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b00d",
+    "name": "Men's Minimalist Mannequin In Traditional Attire",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/minimalist_mannequin_in_traditional_attire.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b00e"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 2650,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.268Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b03b",
+    "name": "Girls' Traditional South Asian Child Outfit Display",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. A cheerful, practical piece that is easy to wash and wear again.",
+    "imageUrl": "/clothing-products/child-female/traditional_south_asian_child_outfit_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b03c"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 3050,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.269Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b03f",
+    "name": "Boys' Casual Child Mannequin In Stylish Outfit",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/casual_child_mannequin_in_stylish_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b040"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 1900,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.271Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b04f",
+    "name": "Boys' Minimalist Mannequin In Casual Fashion",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Made from soft, easy-care fabric built for a full day of play.",
+    "imageUrl": "/clothing-products/child-male/minimalist_mannequin_in_casual_fashion.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b050"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 1050,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.273Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b08b",
+    "name": "Women's Senior Female Product 9",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-female/senior_female_product_9.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b08c"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 12150,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.159Z",
+    "updatedAt": "2026-07-26T14:05:52.275Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0c7",
+    "name": "Women's Olive Asymmetrical Kaftan",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/09_olive_asymmetrical_kaftan.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0c8"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 7750,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.277Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0db",
+    "name": "Women's Outfit 19",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/7.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0dc"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 7050,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.279Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0eb",
+    "name": "Men's Minimalist Gray Outfit On Mannequin",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Lightweight and breathable, built for everyday wear.",
+    "imageUrl": "/clothing-products/young-male/minimalist_gray_outfit_on_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0ec"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 2050,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.281Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0f5",
+    "name": "Men's Minimalist Mannequin With Beige Jacket",
+    "brand": "Urban Threads",
+    "description": "A jacket from Urban Threads, styled for everyday wear. Lightweight and breathable, built for everyday wear.",
+    "imageUrl": "/clothing-products/young-male/minimalist_mannequin_with_beige_jacket.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0f6"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 4000,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.282Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afdd",
+    "name": "Women's Minimalist Fashion Display In Plum Tones",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. Tailored for an elegant, comfortable fit suited to everyday occasions.",
+    "imageUrl": "/clothing-products/adult-female/minimalist_fashion_display_in_plum_tones.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afde"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 19100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.152Z",
+    "updatedAt": "2026-07-26T14:05:52.284Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599affb",
+    "name": "Men's Outfit 7",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Tailored for a comfortable, classic fit suited to work or casual outings.",
+    "imageUrl": "/clothing-products/adult-male/6.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599affc"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 18300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.286Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599affd",
+    "name": "Men's Outfit 8",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Tailored for a comfortable, classic fit suited to work or casual outings.",
+    "imageUrl": "/clothing-products/adult-male/7.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599affe"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 14100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.287Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b051",
+    "name": "Boys' Minimalist Mannequin In Casual Kidswear",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Made from soft, easy-care fabric built for a full day of play.",
+    "imageUrl": "/clothing-products/child-male/minimalist_mannequin_in_casual_kidswear.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b052"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 3450,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.288Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b053",
+    "name": "Boys' Minimalist Mannequin In Casual Wear",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Made from soft, easy-care fabric built for a full day of play.",
+    "imageUrl": "/clothing-products/child-male/minimalist_mannequin_in_casual_wear.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b054"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 2550,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.290Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b101",
+    "name": "Men's Refined Black Kurta With White Trousers",
+    "brand": "Urban Threads",
+    "description": "A kurta from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/refined_black_kurta_with_white_trousers.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b102"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 8650,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.291Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b061",
+    "name": "Boys' Traditional South Asian Attire Mannequin Display",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/traditional_south_asian_attire_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b062"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 1900,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.294Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b097",
+    "name": "Men's Formal South Asian Fashion Mannequin Display",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/formal_south_asian_fashion_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b098"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 12850,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.159Z",
+    "updatedAt": "2026-07-26T14:05:52.295Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0d7",
+    "name": "Women's Outfit 17",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. A versatile piece that is easy to dress up or down.",
+    "imageUrl": "/clothing-products/young-female/5.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0d8"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 6800,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.297Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0d9",
+    "name": "Women's Outfit 18",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. A versatile piece that is easy to dress up or down.",
+    "imageUrl": "/clothing-products/young-female/6.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e24b256ece2c311c7897b"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "N/A"
+    },
+    "price": 4200,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.299Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0e9",
+    "name": "Men's Minimalist Casual Menswear Showcase",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/minimalist_casual_menswear_showcase.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0ea"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 4100,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.300Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b105",
+    "name": "Men's Traditional South Asian Attire Mannequin Display",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/traditional_south_asian_attire_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b106"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 8900,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.302Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afcd",
+    "name": "Women's Adult Female 04",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. A versatile piece made from quality, easy-care fabric.",
+    "imageUrl": "/clothing-products/adult-female/Adult_Female_04.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afce"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 8400,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.149Z",
+    "updatedAt": "2026-07-26T14:05:52.304Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b015",
+    "name": "Men's Traditional South Asian Men S Attire Showcase",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/traditional_south_asian_men_s_attire_showcase.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b016"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 16900,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.305Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b029",
+    "name": "Girls' Minimalist Child Mannequin In Navy Outfit",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. A cheerful, practical piece that is easy to wash and wear again.",
+    "imageUrl": "/clothing-products/child-female/minimalist_child_mannequin_in_navy_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b02a"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 1150,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.307Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b049",
+    "name": "Boys' Child Mannequin In Summer Outfit",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/child_mannequin_in_summer_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b04a"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 4150,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.308Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b07f",
+    "name": "Women's Senior Female Product 3",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Elegant, understated styling with an emphasis on comfort.",
+    "imageUrl": "/clothing-products/senior-female/senior_female_product_3.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b080"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 3650,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.309Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b091",
+    "name": "Men's Business Casual Mannequin In Plaid Blazer",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/business_casual_mannequin_in_plaid_blazer.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b092"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 3300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.159Z",
+    "updatedAt": "2026-07-26T14:05:52.310Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0b1",
+    "name": "Men's Smart Casual Mannequin Display",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Classic styling with an emphasis on comfort and quality.",
+    "imageUrl": "/clothing-products/senior-male/smart_casual_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0b2"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 4600,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.167Z",
+    "updatedAt": "2026-07-26T14:05:52.313Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b103",
+    "name": "Men's Smart Casual Mannequin Display",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/smart_casual_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b104"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 7350,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.315Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afd5",
+    "name": "Women's Adult Female 08",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. A versatile piece made from quality, easy-care fabric.",
+    "imageUrl": "/clothing-products/adult-female/Adult_Female_08.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afd6"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 6250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.151Z",
+    "updatedAt": "2026-07-26T14:05:52.317Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b00f",
+    "name": "Men's Minimalist Mannequin In Traditional Outfit",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/minimalist_mannequin_in_traditional_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b010"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 5250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.318Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b035",
+    "name": "Girls' Pastel Sage Fashion Lookbook Shot",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/pastel_sage_fashion_lookbook_shot.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b036"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 2250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.320Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b055",
+    "name": "Boys' Minimalist Mannequin With Casual Outfit",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Made from soft, easy-care fabric built for a full day of play.",
+    "imageUrl": "/clothing-products/child-male/minimalist_mannequin_with_casual_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b056"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 1250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.322Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b057",
+    "name": "Boys' Sporty Mannequin In Minimal Studio Setting",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Made from soft, easy-care fabric built for a full day of play.",
+    "imageUrl": "/clothing-products/child-male/sporty_mannequin_in_minimal_studio_setting.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b058"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 2500,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.323Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b065",
+    "name": "Boys' Traditional South Asian Child Outfit Display",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/traditional_south_asian_child_outfit_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b066"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 2700,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.325Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b077",
+    "name": "Women's A Clean Studio Product Shot A Full Body White Man 1",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-female/a_clean_studio_product_shot_a_full_body_white_man_1_batch_1.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b078"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 5950,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.326Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b093",
+    "name": "Men's Casual Fashion In Light Blue Kurta",
+    "brand": "Classic Gents",
+    "description": "A kurta from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/casual_fashion_in_light_blue_kurta.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b094"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 7150,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.159Z",
+    "updatedAt": "2026-07-26T14:05:52.327Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b09b",
+    "name": "Men's Minimalist Fashion Catalog With Mannequin",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Classic styling with an emphasis on comfort and quality.",
+    "imageUrl": "/clothing-products/senior-male/minimalist_fashion_catalog_with_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b09c"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 8950,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.165Z",
+    "updatedAt": "2026-07-26T14:05:52.329Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0a3",
+    "name": "Men's Minimalist Fashion Mannequin In Tailored Outfit",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/minimalist_fashion_mannequin_in_tailored_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0a4"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 3600,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.165Z",
+    "updatedAt": "2026-07-26T14:05:52.330Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0bd",
+    "name": "Women's Black Terracotta Asymmetrical Set",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/04_black_terracotta_asymmetrical_set.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0be"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 3100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.167Z",
+    "updatedAt": "2026-07-26T14:05:52.332Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0f9",
+    "name": "Men's Minimalist Mannequin With Smart Casual Wear",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Lightweight and breathable, built for everyday wear.",
+    "imageUrl": "/clothing-products/young-male/minimalist_mannequin_with_smart_casual_wear.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0fa"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 7900,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.333Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afc9",
+    "name": "Women's Adult Female 02",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. Tailored for an elegant, comfortable fit suited to everyday occasions.",
+    "imageUrl": "/clothing-products/adult-female/Adult_Female_02.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afca"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 15350,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.148Z",
+    "updatedAt": "2026-07-26T14:05:52.335Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afd7",
+    "name": "Women's Adult Female 09",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. A versatile piece made from quality, easy-care fabric.",
+    "imageUrl": "/clothing-products/adult-female/Adult_Female_09.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afd8"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 12350,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.151Z",
+    "updatedAt": "2026-07-26T14:05:52.337Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afe7",
+    "name": "Women's Minimalist Fashion On White Mannequin",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. Tailored for an elegant, comfortable fit suited to everyday occasions.",
+    "imageUrl": "/clothing-products/adult-female/minimalist_fashion_on_white_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afe8"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 14550,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.152Z",
+    "updatedAt": "2026-07-26T14:05:52.339Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599aff5",
+    "name": "Men's Outfit 4",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/3.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599aff6"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 19450,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.340Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b009",
+    "name": "Men's Minimalist Mannequin Fashion Display Shot",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Tailored for a comfortable, classic fit suited to work or casual outings.",
+    "imageUrl": "/clothing-products/adult-male/minimalist_mannequin_fashion_display_shot.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b00a"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 15900,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.342Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b01b",
+    "name": "Girls' Child Mannequin In Red Polka Dot Dress",
+    "brand": "Little Blossoms",
+    "description": "A dress from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/child_mannequin_in_red_polka_dot_dress.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599b01c"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 3600,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.343Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b08f",
+    "name": "Men's Business Casual Fashion Mannequin Display",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/business_casual_fashion_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b090"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 4000,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.159Z",
+    "updatedAt": "2026-07-26T14:05:52.345Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0b7",
+    "name": "Women's Mustard Kurta",
+    "brand": "Chic Trends",
+    "description": "A kurta from Chic Trends, styled for everyday wear. A versatile piece that is easy to dress up or down.",
+    "imageUrl": "/clothing-products/young-female/01_mustard_kurta.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0b8"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 8250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.167Z",
+    "updatedAt": "2026-07-26T14:05:52.346Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0cd",
+    "name": "Women's Coral Open Jacket Set",
+    "brand": "Chic Trends",
+    "description": "A jacket from Chic Trends, styled for everyday wear. A versatile piece that is easy to dress up or down.",
+    "imageUrl": "/clothing-products/young-female/10_coral_open_jacket_set.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0ce"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 8250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.347Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0dd",
+    "name": "Women's Outfit 20",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/8.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0de"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 7800,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.349Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0e5",
+    "name": "Men's Formal South Asian Sherwani Display",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/formal_south_asian_sherwani_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0e6"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 3650,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.169Z",
+    "updatedAt": "2026-07-26T14:05:52.350Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0ef",
+    "name": "Men's Minimalist Mannequin In Casual Attire",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Lightweight and breathable, built for everyday wear.",
+    "imageUrl": "/clothing-products/young-male/minimalist_mannequin_in_casual_attire.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0f0"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 4750,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.351Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0fd",
+    "name": "Men's Minimalist Smart Casual Fashion Display",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/minimalist_smart_casual_fashion_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0fe"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 8300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.352Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afe9",
+    "name": "Women's Minimalist Mannequin In Tailored Blue Outfit",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. Tailored for an elegant, comfortable fit suited to everyday occasions.",
+    "imageUrl": "/clothing-products/adult-female/minimalist_mannequin_in_tailored_blue_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afea"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 9150,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.152Z",
+    "updatedAt": "2026-07-26T14:05:52.354Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afeb",
+    "name": "Women's Minimalist Navy Outfit On Mannequin",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. A versatile piece made from quality, easy-care fabric.",
+    "imageUrl": "/clothing-products/adult-female/minimalist_navy_outfit_on_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afec"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 10350,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.152Z",
+    "updatedAt": "2026-07-26T14:05:52.355Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b00b",
+    "name": "Men's Minimalist Mannequin In Casual Wear",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/minimalist_mannequin_in_casual_wear.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b00c"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 16450,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.357Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b067",
+    "name": "Women's A Clean Minimal Studio Product Fashion Photograph 5",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Elegant, understated styling with an emphasis on comfort.",
+    "imageUrl": "/clothing-products/senior-female/a_clean_minimal_studio_product_fashion_photograph_5_batch_5.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b068"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 11300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.358Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b06f",
+    "name": "Women's A Clean Studio Product Photo Scene A Full Body Wh 7",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-female/a_clean_studio_product_photo_scene_a_full_body_wh_7_batch_7.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b070"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 13100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.360Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b071",
+    "name": "Women's A Clean Studio Product Photo Scene A Full Length 4",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-female/a_clean_studio_product_photo_scene_a_full_length_4_batch_4.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b072"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 14850,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.362Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b087",
+    "name": "Women's Senior Female Product 7",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Elegant, understated styling with an emphasis on comfort.",
+    "imageUrl": "/clothing-products/senior-female/senior_female_product_7.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b088"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 10100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.363Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0a9",
+    "name": "Men's Minimalist Mannequin In Traditional Attire",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/minimalist_mannequin_in_traditional_attire.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0aa"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 12850,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.166Z",
+    "updatedAt": "2026-07-26T14:05:52.364Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0cf",
+    "name": "Women's Outfit 13",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. A versatile piece that is easy to dress up or down.",
+    "imageUrl": "/clothing-products/young-female/11.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0d0"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 8000,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.366Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0f3",
+    "name": "Men's Minimalist Mannequin In Varsity Jacket",
+    "brand": "Urban Threads",
+    "description": "A jacket from Urban Threads, styled for everyday wear. Lightweight and breathable, built for everyday wear.",
+    "imageUrl": "/clothing-products/young-male/minimalist_mannequin_in_varsity_jacket.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0f4"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 8900,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.367Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0ff",
+    "name": "Men's Neutral Mannequin With Traditional Kurta Outfit",
+    "brand": "Urban Threads",
+    "description": "A kurta from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/neutral_mannequin_with_traditional_kurta_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b100"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 2400,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.369Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afcf",
+    "name": "Women's Adult Female 05",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. A versatile piece made from quality, easy-care fabric.",
+    "imageUrl": "/clothing-products/adult-female/Adult_Female_05.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afd0"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 7700,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.150Z",
+    "updatedAt": "2026-07-26T14:05:52.370Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afe5",
+    "name": "Women's Minimalist Fashion Mannequin With Tunic And Trouse",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. Tailored for an elegant, comfortable fit suited to everyday occasions.",
+    "imageUrl": "/clothing-products/adult-female/minimalist_fashion_mannequin_with_tunic_and_trouse.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afe6"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 20200,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.152Z",
+    "updatedAt": "2026-07-26T14:05:52.371Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b017",
+    "name": "Girls' Child Like Mannequin In Pastel Outfit",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. A cheerful, practical piece that is easy to wash and wear again.",
+    "imageUrl": "/clothing-products/child-female/child_like_mannequin_in_pastel_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599b018"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 4000,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.373Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b023",
+    "name": "Girls' Fuchsia Ethnic Set On Mannequin",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. Made from soft, easy-care fabric that stays comfortable all day.",
+    "imageUrl": "/clothing-products/child-female/fuchsia_ethnic_set_on_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599b024"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 4400,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.375Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b045",
+    "name": "Boys' Child Mannequin In Minimal Outfit Display",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/child_mannequin_in_minimal_outfit_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b046"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 2850,
+    "isActive": true,
+    "clickCount": 1,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.377Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b063",
+    "name": "Boys' Traditional South Asian Attire On Mannequin",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/traditional_south_asian_attire_on_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b064"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 2800,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.378Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b073",
+    "name": "Women's A Clean Studio Product Photography Scene A Full B 6",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-female/a_clean_studio_product_photography_scene_a_full_b_6_batch_6.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b074"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 3750,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.380Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b075",
+    "name": "Women's A Clean Studio Product Shot A Full Body Front Fa 3",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-female/a_clean_studio_product_shot_a_full_body_front_fa_3_batch_3.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b076"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 10000,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.381Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b079",
+    "name": "Women's Senior Female Product 1",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-female/senior_female_product_1.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b07a"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 6750,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.383Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0a1",
+    "name": "Men's Minimalist Fashion Mannequin In Classy Outfit",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-male/minimalist_fashion_mannequin_in_classy_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0a2"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 8700,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.165Z",
+    "updatedAt": "2026-07-26T14:05:52.385Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0c1",
+    "name": "Women's Rust Kurti Tulip Shalwar",
+    "brand": "Chic Trends",
+    "description": "A shalwar kameez from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/06_rust_kurti_tulip_shalwar.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0c2"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 2450,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.386Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0cb",
+    "name": "Women's Outfit 11",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. A versatile piece that is easy to dress up or down.",
+    "imageUrl": "/clothing-products/young-female/10.jpg",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0cc"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 5700,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.387Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599aff1",
+    "name": "Men's Outfit 2",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/10.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599aff2"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 15550,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.389Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b013",
+    "name": "Men's Neutral Mannequin In Formal Business Attire",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Made from quality fabric designed to hold up to daily wear.",
+    "imageUrl": "/clothing-products/adult-male/neutral_mannequin_in_formal_business_attire.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b014"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 6000,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.390Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b05d",
+    "name": "Boys' Traditional Children S Kurta And Pants Set",
+    "brand": "Kids Zone",
+    "description": "A kurta from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/traditional_children_s_kurta_and_pants_set.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b05e"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 3400,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.157Z",
+    "updatedAt": "2026-07-26T14:05:52.392Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b06b",
+    "name": "Women's A Clean Minimalist Studio Fashion Product Photo W 8",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-female/a_clean_minimalist_studio_fashion_product_photo_w_8_batch_8.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b06c"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 4600,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.393Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b083",
+    "name": "Women's Senior Female Product 5",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Elegant, understated styling with an emphasis on comfort.",
+    "imageUrl": "/clothing-products/senior-female/senior_female_product_5.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b084"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 12550,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.394Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b085",
+    "name": "Women's Senior Female Product 6",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Elegant, understated styling with an emphasis on comfort.",
+    "imageUrl": "/clothing-products/senior-female/senior_female_product_6.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b086"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 12450,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.158Z",
+    "updatedAt": "2026-07-26T14:05:52.396Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0ab",
+    "name": "Men's Minimalist Mannequin With Casual Wear",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Classic styling with an emphasis on comfort and quality.",
+    "imageUrl": "/clothing-products/senior-male/minimalist_mannequin_with_casual_wear.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0ac"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 10900,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.167Z",
+    "updatedAt": "2026-07-26T14:05:52.398Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0b5",
+    "name": "Men's Traditional South Asian Outfit On Mannequin",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Classic styling with an emphasis on comfort and quality.",
+    "imageUrl": "/clothing-products/senior-male/traditional_south_asian_outfit_on_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0b6"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 4750,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.167Z",
+    "updatedAt": "2026-07-26T14:05:52.400Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0bf",
+    "name": "Women's Sage Angrakha Maroon Dupatta",
+    "brand": "Chic Trends",
+    "description": "A women's outfit from Chic Trends, styled for everyday wear. Cut for a flattering, comfortable fit that suits everyday wear.",
+    "imageUrl": "/clothing-products/young-female/05_sage_angrakha_maroon_dupatta.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b0c0"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Chic Trends",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "8"
+    },
+    "price": 5200,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.168Z",
+    "updatedAt": "2026-07-26T14:05:52.401Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0fb",
+    "name": "Men's Minimalist Olive Green Mannequin Display",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/minimalist_olive_green_mannequin_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0fc"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 3850,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.403Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afc7",
+    "name": "Women's Adult Female 01",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. Tailored for an elegant, comfortable fit suited to everyday occasions.",
+    "imageUrl": "/clothing-products/adult-female/Adult_Female_01.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afc8"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 20950,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.140Z",
+    "updatedAt": "2026-07-26T14:05:52.404Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afd9",
+    "name": "Women's Adult Female 10",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. A versatile piece made from quality, easy-care fabric.",
+    "imageUrl": "/clothing-products/adult-female/Adult_Female_10.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afda"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 19300,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.151Z",
+    "updatedAt": "2026-07-26T14:05:52.405Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afe3",
+    "name": "Women's Minimalist Fashion Mannequin With Tunic",
+    "brand": "Élan Women's Wear",
+    "description": "A women's outfit from Élan Women's Wear, styled for everyday wear. Tailored for an elegant, comfortable fit suited to everyday occasions.",
+    "imageUrl": "/clothing-products/adult-female/minimalist_fashion_mannequin_with_tunic.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599afe4"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Élan Women's Wear",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "2"
+    },
+    "price": 12100,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.152Z",
+    "updatedAt": "2026-07-26T14:05:52.407Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599afff",
+    "name": "Men's Outfit 9",
+    "brand": "Men's Avenue",
+    "description": "A men's outfit from Men's Avenue, styled for everyday wear. Tailored for a comfortable, classic fit suited to work or casual outings.",
+    "imageUrl": "/clothing-products/adult-male/8.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Adult",
+        "gender": "Male",
+        "_id": "6a5e1cc2b595e712d599b000"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Men's Avenue",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "5"
+    },
+    "price": 16550,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.153Z",
+    "updatedAt": "2026-07-26T14:05:52.408Z"
+  },
+  {
+    "_id": "6a5e1cc2b595e712d599b019",
+    "name": "Girls' Child Mannequin In Minimalist Outfit Display",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. A cheerful, practical piece that is easy to wash and wear again.",
+    "imageUrl": "/clothing-products/child-female/child_mannequin_in_minimalist_outfit_display.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc2b595e712d599b01a"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 3950,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.154Z",
+    "updatedAt": "2026-07-26T14:05:52.409Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b027",
+    "name": "Girls' Minimalist Child Fashion In Pastels",
+    "brand": "Little Blossoms",
+    "description": "A girls' outfit from Little Blossoms, styled for everyday wear. A cheerful, practical piece that is easy to wash and wear again.",
+    "imageUrl": "/clothing-products/child-female/minimalist_child_fashion_in_pastels.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b028"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Little Blossoms",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "4"
+    },
+    "price": 2500,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.155Z",
+    "updatedAt": "2026-07-26T14:05:52.410Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b041",
+    "name": "Boys' Child Mannequin In Casual Outfit",
+    "brand": "Kids Zone",
+    "description": "A boys' outfit from Kids Zone, styled for everyday wear. Durable stitching and a comfortable fit make it ideal for active kids.",
+    "imageUrl": "/clothing-products/child-male/child_mannequin_in_casual_outfit.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Kid",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b042"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Kids Zone",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "6"
+    },
+    "price": 2250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.156Z",
+    "updatedAt": "2026-07-26T14:05:52.411Z",
+    "viewCount": 1
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b08d",
+    "name": "Women's Studio Product Photo Scene With A Clean Neutral Li 10",
+    "brand": "Grace Comfort Wear",
+    "description": "A women's outfit from Grace Comfort Wear, styled for everyday wear. Designed with a relaxed, comfortable fit and soft, easy-care fabric.",
+    "imageUrl": "/clothing-products/senior-female/studio_product_photo_scene_with_a_clean_neutral_li_10_batch_10.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Female",
+        "_id": "6a5e1cc3b595e712d599b08e"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Grace Comfort Wear",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "9"
+    },
+    "price": 14250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.159Z",
+    "updatedAt": "2026-07-26T14:05:52.413Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b0b3",
+    "name": "Men's Traditional South Asian Men S Attire Mannequin",
+    "brand": "Classic Gents",
+    "description": "A men's outfit from Classic Gents, styled for everyday wear. Classic styling with an emphasis on comfort and quality.",
+    "imageUrl": "/clothing-products/senior-male/traditional_south_asian_men_s_attire_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Senior",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b0b4"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Classic Gents",
+    "storeLocation": {
+      "floor": "1",
+      "storeNumber": "10"
+    },
+    "price": 11850,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.167Z",
+    "updatedAt": "2026-07-26T14:05:52.415Z"
+  },
+  {
+    "_id": "6a5e1cc3b595e712d599b107",
+    "name": "Men's Traditional South Asian Attire On Mannequin",
+    "brand": "Urban Threads",
+    "description": "A men's outfit from Urban Threads, styled for everyday wear. Cut for a modern, easy-to-style fit that works from day to night.",
+    "imageUrl": "/clothing-products/young-male/traditional_south_asian_attire_on_mannequin.png",
+    "category": "Clothes",
+    "targetDemographics": [
+      {
+        "age": "Young",
+        "gender": "Male",
+        "_id": "6a5e1cc3b595e712d599b108"
+      }
+    ],
+    "targetWeather": "All",
+    "targetEventTags": [],
+    "storeName": "Urban Threads",
+    "storeLocation": {
+      "floor": "2",
+      "storeNumber": "1"
+    },
+    "price": 7250,
+    "isActive": true,
+    "clickCount": 0,
+    "__v": 0,
+    "createdAt": "2026-07-20T13:04:03.170Z",
+    "updatedAt": "2026-07-26T14:05:52.416Z"
+  }
+]

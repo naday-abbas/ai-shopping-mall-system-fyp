@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8e44ad"/>
+      <stop offset="50%" style="stop-color:#9b59b6"/>
+      <stop offset="100%" style="stop-color:#6c3483"/>
+    </linearGradient>
+    <linearGradient id="bag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f0e6ff"/>
+    </linearGradient>
+    <linearGradient id="ribbon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c"/>
+      <stop offset="100%" style="stop-color:#c0392b"/>
+    </linearGradient>
+    <linearGradient id="star1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12"/>
+      <stop offset="100%" style="stop-color:#d68910"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(0,0,0,0.35)"/>
+    </filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="24" fill="url(#bg)"/>
+
+  <!-- Decorative stars -->
+  <g opacity="0.2" fill="white">
+    <polygon points="42,45 48,35 54,45 65,45 57,52 60,63 48,57 36,63 39,52 31,45" transform="scale(0.7) translate(10,10)"/>
+    <polygon points="342,45 348,35 354,45 365,45 357,52 360,63 348,57 336,63 339,52 331,45" transform="scale(0.7) translate(130,10)"/>
+    <polygon points="42,345 48,335 54,345 65,345 57,352 360,363 348,357 336,363 339,352 331,345" transform="scale(0.5) translate(20,300)"/>
+  </g>
+
+  <!-- Floating circles decoration -->
+  <circle cx="52" cy="68" r="20" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="348" cy="68" r="20" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="52" cy="332" r="20" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="348" cy="332" r="20" fill="rgba(255,255,255,0.08)"/>
+  <circle cx="52" cy="200" r="12" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="348" cy="200" r="12" fill="rgba(255,255,255,0.06)"/>
+
+  <!-- Confetti dots -->
+  <g opacity="0.5">
+    <circle cx="75" cy="115" r="5" fill="#e74c3c"/>
+    <circle cx="95" cy="88" r="4" fill="#f39c12"/>
+    <circle cx="310" cy="105" r="5" fill="#3498db"/>
+    <circle cx="328" cy="80" r="4" fill="#2ecc71"/>
+    <circle cx="62" cy="280" r="4" fill="#f39c12"/>
+    <circle cx="85" cy="305" r="5" fill="#e74c3c"/>
+    <circle cx="318" cy="285" r="4" fill="#2ecc71"/>
+    <circle cx="340" cy="308" r="5" fill="#3498db"/>
+  </g>
+  <g opacity="0.3" transform="rotate(45)">
+    <rect x="105" y="-30" width="8" height="8" rx="1" fill="#f1c40f"/>
+    <rect x="280" y="-50" width="8" height="8" rx="1" fill="#e74c3c"/>
+  </g>
+
+  <!-- Shopping bag body -->
+  <rect x="120" y="168" width="160" height="158" rx="14" fill="url(#bag)" filter="url(#shadow)"/>
+
+  <!-- Bag handle -->
+  <path d="M 158 168 L 158 140 Q 158 118 200 118 Q 242 118 242 140 L 242 168"
+    stroke="#9b59b6" stroke-width="10" fill="none" stroke-linecap="round" filter="url(#shadow)"/>
+  <path d="M 158 168 L 158 140 Q 158 122 200 122 Q 242 122 242 140 L 242 168"
+    stroke="#c39bd3" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Ribbon horizontal -->
+  <rect x="120" y="220" width="160" height="22" fill="url(#ribbon)"/>
+  <!-- Ribbon vertical -->
+  <rect x="189" y="168" width="22" height="158" fill="url(#ribbon)"/>
+
+  <!-- Ribbon bow at intersection -->
+  <!-- Left bow loop -->
+  <path d="M 200 231 Q 168 210 160 222 Q 152 234 170 244 Q 185 252 200 237"
+    fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <!-- Right bow loop -->
+  <path d="M 200 231 Q 232 210 240 222 Q 248 234 230 244 Q 215 252 200 237"
+    fill="#e74c3c" stroke="#c0392b" stroke-width="1"/>
+  <!-- Bow center knot -->
+  <ellipse cx="200" cy="234" rx="12" ry="10" fill="#c0392b" stroke="#a93226" stroke-width="1"/>
+  <!-- Bow tails -->
+  <path d="M 194 242 Q 180 260 172 268" stroke="#e74c3c" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <path d="M 206 242 Q 220 260 228 268" stroke="#e74c3c" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+  <!-- Bag shine -->
+  <path d="M 128 178 Q 126 210 128 248" stroke="rgba(255,255,255,0.4)" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Stars around bag -->
+  <text x="95" y="195" font-size="22" fill="#f1c40f" filter="url(#glow)">★</text>
+  <text x="282" y="195" font-size="22" fill="#f1c40f" filter="url(#glow)">★</text>
+  <text x="108" y="295" font-size="16" fill="#f39c12" opacity="0.8">★</text>
+  <text x="272" y="298" font-size="16" fill="#f39c12" opacity="0.8">★</text>
+
+  <!-- "DEALS" text on bag (below ribbon) -->
+  <text x="200" y="295" font-family="'Inter', Arial, sans-serif" font-size="22" font-weight="800" fill="#8e44ad" text-anchor="middle" letter-spacing="2">DEALS</text>
+  <text x="200" y="318" font-family="'Inter', Arial, sans-serif" font-size="13" font-weight="600" fill="#9b59b6" text-anchor="middle" letter-spacing="1">FOR YOU</text>
+
+  <!-- Label -->
+  <rect x="70" y="350" width="260" height="36" rx="18" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="200" y="373" font-family="'Inter', sans-serif" font-size="14" font-weight="700" fill="#f0e6ff" text-anchor="middle" letter-spacing="1">SPECIAL OFFERS</text>
+</svg>

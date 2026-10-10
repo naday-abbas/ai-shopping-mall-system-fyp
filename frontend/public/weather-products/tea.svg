@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a472a"/>
+      <stop offset="50%" style="stop-color:#2d6a4f"/>
+      <stop offset="100%" style="stop-color:#1a472a"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#faf0e6"/>
+      <stop offset="100%" style="stop-color:#f0e0cc"/>
+    </linearGradient>
+    <linearGradient id="tea" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8860a"/>
+      <stop offset="100%" style="stop-color:#8B5E0A"/>
+    </linearGradient>
+    <linearGradient id="saucer" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5e6d3"/>
+      <stop offset="100%" style="stop-color:#d4b48c"/>
+    </linearGradient>
+    <linearGradient id="teabag" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#c8a96e"/>
+      <stop offset="100%" style="stop-color:#a08040"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(0,0,0,0.35)"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" rx="24" fill="url(#bg)"/>
+
+  <!-- Background warm glow -->
+  <circle cx="200" cy="230" r="150" fill="rgba(100,200,80,0.08)"/>
+
+  <!-- Tea leaves decoration -->
+  <ellipse cx="55" cy="65" rx="20" ry="10" fill="rgba(255,255,255,0.08)" transform="rotate(-40 55 65)"/>
+  <ellipse cx="65" cy="75" rx="15" ry="8" fill="rgba(255,255,255,0.06)" transform="rotate(-20 65 75)"/>
+  <ellipse cx="345" cy="65" rx="20" ry="10" fill="rgba(255,255,255,0.08)" transform="rotate(40 345 65)"/>
+  <ellipse cx="335" cy="75" rx="15" ry="8" fill="rgba(255,255,255,0.06)" transform="rotate(20 335 75)"/>
+  <ellipse cx="55" cy="335" rx="18" ry="9" fill="rgba(255,255,255,0.06)" transform="rotate(30 55 335)"/>
+  <ellipse cx="345" cy="335" rx="18" ry="9" fill="rgba(255,255,255,0.06)" transform="rotate(-30 345 335)"/>
+
+  <!-- Steam wisps -->
+  <path d="M 178 105 Q 165 82 178 60 Q 191 38 178 18" stroke="rgba(255,255,255,0.3)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 200 110 Q 213 87 200 65 Q 187 43 200 21" stroke="rgba(255,255,255,0.2)" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M 222 105 Q 235 82 222 60 Q 209 38 222 18" stroke="rgba(255,255,255,0.3)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Saucer -->
+  <ellipse cx="200" cy="318" rx="115" ry="24" fill="url(#saucer)" filter="url(#shadow)"/>
+  <ellipse cx="200" cy="318" rx="102" ry="16" fill="none" stroke="rgba(180,140,80,0.3)" stroke-width="2"/>
+  <!-- Saucer inner ring -->
+  <ellipse cx="200" cy="318" rx="65" ry="10" fill="rgba(200,160,100,0.15)"/>
+
+  <!-- Tea cup body (wider top, slight taper) -->
+  <path d="M 138 158 L 148 305 Q 148 318 162 318 L 238 318 Q 252 318 252 305 L 262 158 Z" fill="url(#cup)" filter="url(#shadow)"/>
+
+  <!-- Tea liquid inside -->
+  <clipPath id="cupClip">
+    <path d="M 140 160 L 150 303 Q 150 316 163 316 L 237 316 Q 250 316 250 303 L 260 160 Z"/>
+  </clipPath>
+  <rect x="138" y="185" width="124" height="135" fill="url(#tea)" clip-path="url(#cupClip)" opacity="0.88"/>
+
+  <!-- Tea surface -->
+  <ellipse cx="200" cy="186" rx="58" ry="13" fill="#b5770a"/>
+  <!-- Tea surface shimmer -->
+  <ellipse cx="188" cy="183" rx="22" ry="5" fill="rgba(255,200,80,0.2)"/>
+
+  <!-- Cup interior top -->
+  <ellipse cx="200" cy="162" rx="60" ry="14" fill="#e8d8c0"/>
+
+  <!-- Tea bag string over rim -->
+  <path d="M 248 158 L 265 130 L 280 130" stroke="#8B6914" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Tea bag tag -->
+  <rect x="278" y="118" width="28" height="22" rx="4" fill="url(#teabag)"/>
+  <text x="292" y="133" font-family="serif" font-size="10" fill="#5a3a0a" text-anchor="middle" font-weight="bold">TEA</text>
+  <!-- Tea bag in cup -->
+  <rect x="238" y="190" width="18" height="22" rx="3" fill="url(#teabag)" clip-path="url(#cupClip)"/>
+
+  <!-- Cup handle -->
+  <path d="M 262 185 Q 305 185 305 222 Q 305 262 262 262" stroke="url(#cup)" stroke-width="20" fill="none" stroke-linecap="round" filter="url(#shadow)"/>
+  <path d="M 262 185 Q 292 185 292 222 Q 292 262 262 262" stroke="#dcc8a8" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- Cup decorative band -->
+  <path d="M 142 225 L 258 225" stroke="rgba(100,160,100,0.3)" stroke-width="2"/>
+  <!-- Small floral pattern on cup -->
+  <circle cx="178" cy="240" r="8" fill="none" stroke="rgba(100,160,100,0.25)" stroke-width="1.5"/>
+  <circle cx="178" cy="240" r="3" fill="rgba(100,160,100,0.2)"/>
+  <circle cx="200" cy="238" r="8" fill="none" stroke="rgba(100,160,100,0.25)" stroke-width="1.5"/>
+  <circle cx="200" cy="238" r="3" fill="rgba(100,160,100,0.2)"/>
+  <circle cx="222" cy="240" r="8" fill="none" stroke="rgba(100,160,100,0.25)" stroke-width="1.5"/>
+  <circle cx="222" cy="240" r="3" fill="rgba(100,160,100,0.2)"/>
+
+  <!-- Cup shine -->
+  <path d="M 150 180 Q 148 220 151 265" stroke="rgba(255,255,255,0.18)" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <!-- Label -->
+  <rect x="80" y="352" width="240" height="36" rx="18" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  <text x="200" y="375" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#d4edda" text-anchor="middle" letter-spacing="1">GREEN TEA</text>
+</svg>
