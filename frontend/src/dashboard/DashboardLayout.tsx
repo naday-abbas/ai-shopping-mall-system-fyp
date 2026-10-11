@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import type { Dispatch, SetStateAction, ComponentType, SVGProps } from 'react';
+import type { Dispatch, SetStateAction } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import {
