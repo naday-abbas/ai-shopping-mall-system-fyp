@@ -296,6 +296,7 @@ export default function FeedbackPage() {
                                 size={52}
                                 strokeWidth={1.3}
                                 fill={s.fill}
+                                // @ts-ignore
                                 style={{ color: s.color, filter: isActive ? s.filter : 'none', transition: 'color 0.15s, filter 0.15s' }}
                               />
                             </motion.button>

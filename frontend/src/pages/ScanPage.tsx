@@ -833,7 +833,7 @@ export default function ScanPage() {
   const handlePlayGame    = useCallback(() => {
     setSelectedProduct(null)
     // Kid and Young get the Catch-the-Gifts tap game; Adult and Senior get the Spin & Win wheel.
-    const gameRoute = ['Kid', 'Young'].includes(result?.age_category) ? '/game-catch' : '/game'
+    const gameRoute = ['Kid', 'Young'].includes(result?.age_category || "") ? '/game-catch' : '/game'
     navigate(gameRoute, { state: { sessionId: result?.sessionId ?? null, visitStreak } })
   }, [navigate, result, visitStreak])
 

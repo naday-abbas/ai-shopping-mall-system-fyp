@@ -4,7 +4,7 @@ import { X, ChevronRight, ChevronLeft, Play } from 'lucide-react'
 import { useLanguage } from '../i18n/LanguageContext'
 
 // ── Scene 1: Tap the Circle ───────────────────────────────────────────────────
-function SceneTap({ isDark }: { isDark: boolean }) {
+function SceneTap({ _isDark }: { isDark: boolean }) {
   const [tap, setTap] = useState(false)
   useEffect(() => {
     const id = setInterval(() => setTap(v => !v), 1600)
@@ -136,7 +136,7 @@ function SceneProducts({ isDark }: { isDark: boolean }) {
 }
 
 // ── Scene 4: Spin & Win ───────────────────────────────────────────────────────
-function SceneWheel({ isDark }: { isDark: boolean }) {
+function SceneWheel({_isDark }: { _isDark: boolean }) {
   const { t } = useLanguage()
   const [angle, setAngle] = useState(0)
   const [spinning, setSpinning] = useState(false)
@@ -306,7 +306,7 @@ export default function TutorialModal({ isDarkMode: isDark, activeEvent, onClose
 
         {/* Scene Dots */}
         <div style={{ display: 'flex', gap: 6, padding: '14px 28px 0', alignItems: 'center' }}>
-          {SCENES.map((s, i) => (
+          {SCENES.map((_, i) => (
             <motion.button key={i} onClick={() => { setScene(i); setProgress(0); if (!paused) startTimer() }}
               animate={{ width: i === scene ? 28 : 8, background: i === scene ? SCENES[scene].color : (isDark ? 'rgba(255,255,255,0.15)' : 'rgba(0,0,0,0.12)') }}
               transition={{ duration: 0.3 }}
