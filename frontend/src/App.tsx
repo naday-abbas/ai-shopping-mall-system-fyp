@@ -9,6 +9,7 @@ import ScanPage        from './pages/ScanPage'
 import GamePage        from './pages/GamePage'
 import CatchGiftsGamePage from './pages/CatchGiftsGamePage'
 import FeedbackPage    from './pages/FeedbackPage'
+// @ts-ignore
 import LoginPage       from './pages/LoginPage'
 import DashboardLayout from './dashboard/DashboardLayout'
 import './App.css'
