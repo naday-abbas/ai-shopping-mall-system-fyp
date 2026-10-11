@@ -772,7 +772,7 @@ export default function ScanPage() {
       form.append('image', file)
       form.append('weatherCondition', weatherInfo?.condition ?? 'All')
       form.append('visitStreak', String(visitStreak))
-      const { data } = await axios.post<ScanResult>('/api/scan', form, {
+      const { data } = await axios.post<ScanResult>(`${import.meta.env.VITE_API_URL}/api/scan`, form, {
         headers: { 'Content-Type': 'multipart/form-data' },
         timeout: 60_000,
       })
@@ -798,7 +798,7 @@ export default function ScanPage() {
       form.append('image', file)
       form.append('weatherCondition', weatherInfo?.condition ?? 'All')
       form.append('visitStreak', String(visitStreak))
-      const { data } = await axios.post<ScanResult>('/api/scan', form, {
+      const { data } = await axios.post<ScanResult>(`${import.meta.env.VITE_API_URL}/api/scan`, form, {
         headers: { 'Content-Type': 'multipart/form-data' },
         timeout: 60_000,
       })
@@ -816,7 +816,7 @@ export default function ScanPage() {
     if (!returningCode.trim()) return
     setReturningChecking(true)
     try {
-      const { data } = await axios.post('/api/visitors/lookup', { code: returningCode.trim() })
+      const { data } = await axios.post(`${import.meta.env.VITE_API_URL}/api/visitors/lookup`, { code: returningCode.trim() })
       setVisitStreak(data.visitStreak)
       showToast(`Welcome back! Visit #${data.visitStreak} 🎉`)
       setShowReturningInput(false)
