@@ -4,7 +4,7 @@ import { X, ChevronRight, ChevronLeft, Play } from 'lucide-react'
 import { useLanguage } from '../i18n/LanguageContext'
 
 // ── Scene 1: Tap the Circle ───────────────────────────────────────────────────
-function SceneTap({ _isDark }: { isDark: boolean }) {
+function SceneTap() {
   const [tap, setTap] = useState(false)
   useEffect(() => {
     const id = setInterval(() => setTap(v => !v), 1600)
@@ -136,7 +136,7 @@ function SceneProducts({ isDark }: { isDark: boolean }) {
 }
 
 // ── Scene 4: Spin & Win ───────────────────────────────────────────────────────
-function SceneWheel({_isDark }: { _isDark: boolean }) {
+function SceneWheel() {
   const { t } = useLanguage()
   const [angle, setAngle] = useState(0)
   const [spinning, setSpinning] = useState(false)
@@ -244,7 +244,13 @@ export default function TutorialModal({ isDarkMode: isDark, activeEvent, onClose
     if (!paused) startTimer()
   }
 
-  const SceneAnim = [SceneTap, SceneScan, SceneProducts, SceneWheel][scene]
+  const SceneAnim = [
+    () => <SceneTap />,
+    () => <SceneScan isDark={isDark} />,
+    () => <SceneProducts isDark={isDark} />,
+    () => <SceneWheel />,
+  ][scene]
+
 
   return (
     <motion.div
@@ -330,7 +336,7 @@ export default function TutorialModal({ isDarkMode: isDark, activeEvent, onClose
               transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
               style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}
             >
-              <SceneAnim isDark={isDark} />
+              <SceneAnim />
             </motion.div>
           </AnimatePresence>
           {/* Left / Right tap zones */}

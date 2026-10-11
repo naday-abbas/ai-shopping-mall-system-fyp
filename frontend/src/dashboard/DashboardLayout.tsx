@@ -1,28 +1,52 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import type { Dispatch, SetStateAction, ComponentType, SVGProps } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import { LayoutDashboard, BarChart2, Image, Ticket, LogOut, ShoppingBag, MessageSquare, CalendarDays, HelpCircle } from 'lucide-react';
+import {
+LayoutDashboard,
+BarChart2,
+Image,
+Ticket,
+LogOut,
+ShoppingBag,
+MessageSquare,
+CalendarDays,
+HelpCircle,
+} from 'lucide-react';
 import './dashboard.css';
-import OverviewPage  from './OverviewPage';
+import OverviewPage from './OverviewPage';
 import AnalyticsPage from './AnalyticsPage';
-import ContentPage   from './ContentPage';
-import CouponsPage   from './CouponsPage';
-import FeedbackPage  from './FeedbackPage';
-import EventsPage    from './EventsPage';
-import HelpPage      from './HelpPage';
+import ContentPage from './ContentPage';
+import CouponsPage from './CouponsPage';
+import FeedbackPage from './FeedbackPage';
+import EventsPage from './EventsPage';
+import HelpPage from './HelpPage';
 
-const NAV = [
-  { id: 'overview',  Icon: LayoutDashboard, label: 'Overview'  },
-  { id: 'analytics', Icon: BarChart2,        label: 'Analytics' },
-  { id: 'content',   Icon: Image,            label: 'Content'   },
-  { id: 'coupons',   Icon: Ticket,           label: 'Coupons'   },
-  { id: 'events',    Icon: CalendarDays,     label: 'Events'    },
-  { id: 'feedback',  Icon: MessageSquare,    label: 'Feedback'  },
-  { id: 'help',      Icon: HelpCircle,       label: 'Help'      },
+type NavItem = {
+id: string;
+Icon: typeof LayoutDashboard;
+label: string;
+};
+
+type SidebarProps = {
+active: string;
+setActive: Dispatch<SetStateAction<string>>;
+onLogout: () => void;
+};
+
+const NAV: NavItem[] = [
+{ id: 'overview', Icon: LayoutDashboard, label: 'Overview' },
+{ id: 'analytics', Icon: BarChart2, label: 'Analytics' },
+{ id: 'content', Icon: Image, label: 'Content' },
+{ id: 'coupons', Icon: Ticket, label: 'Coupons' },
+{ id: 'events', Icon: CalendarDays, label: 'Events' },
+{ id: 'feedback', Icon: MessageSquare, label: 'Feedback' },
+{ id: 'help', Icon: HelpCircle, label: 'Help' },
 ];
 
-function Sidebar({ active, setActive, onLogout }) {
-  return (
+
+function Sidebar({ active, setActive, onLogout }: SidebarProps) {
+    return (
     <div className="db-sidebar">
       {/* Logo */}
       <div className="db-logo-area">
