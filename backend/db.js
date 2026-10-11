@@ -11,7 +11,7 @@ const RETRY_DELAY_MS = 3000;
 export async function connectDB() {
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
-      await mongoose.connect(process.env.MONGODB_URI);
+      await mongoose.connect(process.env.MONGO_URI);
       console.log('MongoDB connected:', mongoose.connection.host);
       return;
     } catch (err) {
