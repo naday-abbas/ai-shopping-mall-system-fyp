@@ -39,8 +39,14 @@ router.post('/', upload.single('image'), async (req, res, next) => {
       contentType: req.file.mimetype,
     });
 
-    const aiUrl = `${process.env.AI_SERVICE_URL ?? 'http://127.0.0.1:8000'}/predict`;
-    const { data: ai } = await postToAI(aiUrl, form);
+    const aiBaseUrl = (
+      process.env.AI_SERVICE_URL ?? 'http://127.0.0.1:8000'
+    ).trim().replace(/\/+$/, '');
+    
+    const aiUrl = `${aiBaseUrl}/predict`;
+    
+    console.log('[AI] Requesting:', aiUrl);
+        const { data: ai } = await postToAI(aiUrl, form);
 
     // ── 2. Query MongoDB for matching products ─────────────────────────────
     const weatherCondition = req.body.weatherCondition || 'All'
