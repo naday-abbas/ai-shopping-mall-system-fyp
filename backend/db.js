@@ -11,7 +11,13 @@ const RETRY_DELAY_MS = 3000;
 export async function connectDB() {
   for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
     try {
-      await mongoose.connect(process.env.MONGO_URI);
+      const mongoUri = process.env.MONGODB_URI || process.env.MONGO_URI;
+
+if (!mongoUri) {
+  throw new Error('Missing MONGODB_URI or MONGO_URI in environment variables');
+}
+
+await mongoose.connect(mongoUri);
       console.log('MongoDB connected:', mongoose.connection.host);
       return;
     } catch (err) {
