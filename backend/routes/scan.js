@@ -10,21 +10,47 @@ const upload = multer({ storage: multer.memoryStorage() });
 
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
-async function postToAI(url, form, retries = 5, delayMs = 3000) {
-  for (let attempt = 1; attempt <= retries; attempt++) {
+
+async function waitForAI(baseUrl, maxAttempts = 20, delayMs = 5000) {
+  let lastError;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
-      return await axios.post(url, form, { headers: form.getHeaders() });
+      const { data } = await axios.get(`${baseUrl}/health`, {
+        timeout: 10000,
+      });
+
+      if (data?.status === 'ok') {
+        console.log('[AI] Service is ready.');
+        return;
+      }
+
+      lastError = new Error('AI service is not ready yet.');
     } catch (err) {
-      const isConnRefused = err.code === 'ECONNREFUSED' || err.code === 'ECONNRESET';
-      if (isConnRefused && attempt < retries) {
-        console.warn(`[AI] not ready, retrying in ${delayMs / 1000}s (attempt ${attempt}/${retries})…`);
-        await sleep(delayMs);
-      } else {
+      lastError = err;
+      const status = err.response?.status;
+
+      // Retry network errors and temporary Render startup errors.
+      if (status && ![502, 503, 504].includes(status)) {
         throw err;
       }
     }
+
+    if (attempt < maxAttempts) {
+      console.warn(
+        `[AI] Waiting for startup (${attempt}/${maxAttempts})...`
+      );
+      await sleep(delayMs);
+    }
   }
+
+  const error = new Error(
+    `AI service failed to become ready: ${lastError?.message || 'Unknown error'}`
+  );
+  error.status = 503;
+  throw error;
 }
+
 
 router.post('/', upload.single('image'), async (req, res, next) => {
   try {
@@ -32,21 +58,31 @@ router.post('/', upload.single('image'), async (req, res, next) => {
       return res.status(400).json({ success: false, error: 'No image file provided.' });
     }
 
-    // ── 1. Forward image to Python AI service ──────────────────────────────
+    
+    // ── 1. Wake AI service and wait until it is ready ───────────────────
+    const aiBaseUrl = (
+      process.env.AI_SERVICE_URL ?? 'http://127.0.0.1:8000'
+    ).trim().replace(/\/+$/, '');
+
+    console.log('[AI] Checking service readiness...');
+    await waitForAI(aiBaseUrl);
+
+    // ── 2. Forward image to Python AI service ──────────────────────────
     const form = new FormData();
     form.append('file', req.file.buffer, {
       filename: req.file.originalname || 'upload.jpg',
       contentType: req.file.mimetype,
     });
 
-    const aiBaseUrl = (
-      process.env.AI_SERVICE_URL ?? 'http://127.0.0.1:8000'
-    ).trim().replace(/\/+$/, '');
-    
     const aiUrl = `${aiBaseUrl}/predict`;
-    
-    console.log('[AI] Requesting:', aiUrl);
-        const { data: ai } = await postToAI(aiUrl, form);
+
+    console.log('[AI] Sending image for prediction:', aiUrl);
+
+    const { data: ai } = await axios.post(aiUrl, form, {
+      headers: form.getHeaders(),
+      timeout: 60000,
+    });
+
 
     // ── 2. Query MongoDB for matching products ─────────────────────────────
     const weatherCondition = req.body.weatherCondition || 'All'
