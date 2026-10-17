@@ -19,7 +19,10 @@ export default function LoginPage() {
     setLoading(true)
     setError('')
     try {
-      const { data } = await axios.post('/api/auth/login', { username, password })
+      const { data } = await axios.post(
+        `${import.meta.env.VITE_API_URL}/api/auth/login`,
+        { username, password }
+      )
       localStorage.setItem('admin_token', data.token)
       axios.defaults.headers.common['Authorization'] = `Bearer ${data.token}`
       navigate('/admin')
