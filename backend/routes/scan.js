@@ -52,6 +52,63 @@ async function waitForAI(baseUrl, maxAttempts = 20, delayMs = 5000) {
 }
 
 
+async function predictWithRetry(baseUrl, file, maxAttempts = 3, delayMs = 4000) {
+  let lastError;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    // Create a fresh form for every attempt.
+    const form = new FormData();
+
+    form.append('file', file.buffer, {
+      filename: file.originalname || 'upload.jpg',
+      contentType: file.mimetype,
+    });
+
+    try {
+      const { data } = await axios.post(
+        `${baseUrl}/predict`,
+        form,
+        {
+          headers: form.getHeaders(),
+          timeout: 60000,
+        }
+      );
+
+      console.log('[AI] Prediction succeeded.');
+      return data;
+    } catch (err) {
+      lastError = err;
+
+      const status = err.response?.status;
+      const retryableStatus = [502, 503, 504].includes(status);
+      const retryableCode = [
+        'ECONNREFUSED',
+        'ECONNRESET',
+        'ETIMEDOUT',
+        'ECONNABORTED',
+      ].includes(err.code);
+
+      if (
+        (!retryableStatus && !retryableCode) ||
+        attempt === maxAttempts
+      ) {
+        throw err;
+      }
+
+      console.warn(
+        `[AI] Prediction attempt ${attempt}/${maxAttempts} failed ` +
+        `(${status || err.code || err.message}). Retrying...`
+      );
+
+      await sleep(delayMs);
+    }
+  }
+
+  throw lastError;
+}
+
+
+
 router.post('/', upload.single('image'), async (req, res, next) => {
   try {
     if (!req.file) {
@@ -59,29 +116,17 @@ router.post('/', upload.single('image'), async (req, res, next) => {
     }
 
     
-    // ── 1. Wake AI service and wait until it is ready ───────────────────
-    const aiBaseUrl = (
-      process.env.AI_SERVICE_URL ?? 'http://127.0.0.1:8000'
-    ).trim().replace(/\/+$/, '');
+  // ── 1. Wake AI service and wait until it is ready ───────────────────
+  const aiBaseUrl = (
+    process.env.AI_SERVICE_URL ?? 'http://127.0.0.1:8000'
+  ).trim().replace(/\/+$/, '');
 
-    console.log('[AI] Checking service readiness...');
-    await waitForAI(aiBaseUrl);
+  console.log('[AI] Checking service readiness...');
+  await waitForAI(aiBaseUrl);
 
-    // ── 2. Forward image to Python AI service ──────────────────────────
-    const form = new FormData();
-    form.append('file', req.file.buffer, {
-      filename: req.file.originalname || 'upload.jpg',
-      contentType: req.file.mimetype,
-    });
-
-    const aiUrl = `${aiBaseUrl}/predict`;
-
-    console.log('[AI] Sending image for prediction:', aiUrl);
-
-    const { data: ai } = await axios.post(aiUrl, form, {
-      headers: form.getHeaders(),
-      timeout: 60000,
-    });
+  // ── 2. Predict with automatic retries for temporary failures ────────
+  console.log('[AI] Sending image for prediction...');
+  const ai = await predictWithRetry(aiBaseUrl, req.file);
 
 
     // ── 2. Query MongoDB for matching products ─────────────────────────────
